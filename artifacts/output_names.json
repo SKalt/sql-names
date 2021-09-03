@@ -1,0 +1,9670 @@
+{
+  "1987": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "1989": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "1992": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "1999": [
+    "sql99.bnf"
+  ],
+  "_empty": [
+    "mariadb.y"
+  ],
+  "a_expr": [
+    "postgres.y"
+  ],
+  "access_method_clause": [
+    "postgres.y"
+  ],
+  "account_lock_password_expire_options": [
+    "mysql.g4"
+  ],
+  "account_locking_option": [
+    "mariadb.y"
+  ],
+  "account_management_statement": [
+    "mysql.g4"
+  ],
+  "acl_type": [
+    "mysql.g4"
+  ],
+  "action": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "add_column": [
+    "mariadb.y"
+  ],
+  "add_column_fullname": [
+    "sqlite.y"
+  ],
+  "add_drop": [
+    "postgres.y"
+  ],
+  "add_log_file": [
+    "mariadb.y"
+  ],
+  "add_part_extra": [
+    "mariadb.y"
+  ],
+  "add_partition_rule": [
+    "mariadb.y"
+  ],
+  "adm_partition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "admin_option_for_role": [
+    "mariadb.y"
+  ],
+  "admin_partition": [
+    "mysql.g4"
+  ],
+  "aexpr_const": [
+    "postgres.y"
+  ],
+  "after_opt": [
+    "vitesse.y"
+  ],
+  "aggr_arg": [
+    "postgres.y"
+  ],
+  "aggr_args": [
+    "postgres.y"
+  ],
+  "aggr_args_list": [
+    "postgres.y"
+  ],
+  "aggregate_func": [
+    "sqlite.g4"
+  ],
+  "aggregate_function_invocation": [
+    "sqlite.g4"
+  ],
+  "aggregate_with_argtypes": [
+    "postgres.y"
+  ],
+  "aggregate_with_argtypes_list": [
+    "postgres.y"
+  ],
+  "algorithm_index": [
+    "vitesse.y"
+  ],
+  "algorithm_lock_opt": [
+    "vitesse.y"
+  ],
+  "algorithm_view": [
+    "vitesse.y"
+  ],
+  "alias": [
+    "sqlite.g4"
+  ],
+  "alias_clause": [
+    "postgres.y"
+  ],
+  "aliased_table_name": [
+    "vitesse.y"
+  ],
+  "all": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "all__op": [
+    "postgres.y"
+  ],
+  "all_key_opt": [
+    "mariadb.y"
+  ],
+  "all_or_alt_part_name_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "all_or_any": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "all_or_partition_name_list": [
+    "mysql.g4"
+  ],
+  "alt_part_name_item": [
+    "mariadb.y"
+  ],
+  "alt_part_name_list": [
+    "mariadb.y"
+  ],
+  "alter": [
+    "mariadb.y"
+  ],
+  "alter_algorithm_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_algorithm_option_value": [
+    "mysql.y"
+  ],
+  "alter_collation_stmt": [
+    "postgres.y"
+  ],
+  "alter_column_default": [
+    "postgres.y"
+  ],
+  "alter_command_list": [
+    "mysql.g4"
+  ],
+  "alter_commands": [
+    "mariadb.y"
+  ],
+  "alter_commands_list": [
+    "vitesse.y"
+  ],
+  "alter_commands_modifier": [
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "alter_commands_modifier_list": [
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "alter_composite_type_stmt": [
+    "postgres.y"
+  ],
+  "alter_database": [
+    "mysql.g4"
+  ],
+  "alter_database_option": [
+    "mysql.y"
+  ],
+  "alter_database_options": [
+    "mysql.y"
+  ],
+  "alter_database_prefix": [
+    "vitesse.y"
+  ],
+  "alter_database_set_stmt": [
+    "postgres.y"
+  ],
+  "alter_database_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "alter_default_privileges_stmt": [
+    "postgres.y"
+  ],
+  "alter_domain_stmt": [
+    "postgres.y"
+  ],
+  "alter_enum_stmt": [
+    "postgres.y"
+  ],
+  "alter_event": [
+    "mysql.g4"
+  ],
+  "alter_event_stmt": [
+    "mysql.y"
+  ],
+  "alter_event_trig_stmt": [
+    "postgres.y"
+  ],
+  "alter_extension_contents_stmt": [
+    "postgres.y"
+  ],
+  "alter_extension_opt_item": [
+    "postgres.y"
+  ],
+  "alter_extension_opt_list": [
+    "postgres.y"
+  ],
+  "alter_extension_stmt": [
+    "postgres.y"
+  ],
+  "alter_fdw_stmt": [
+    "postgres.y"
+  ],
+  "alter_foreign_server_stmt": [
+    "postgres.y"
+  ],
+  "alter_function_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "alter_generic_option_elem": [
+    "postgres.y"
+  ],
+  "alter_generic_option_list": [
+    "postgres.y"
+  ],
+  "alter_generic_options": [
+    "postgres.y"
+  ],
+  "alter_group_stmt": [
+    "postgres.y"
+  ],
+  "alter_identity_column_option": [
+    "postgres.y"
+  ],
+  "alter_identity_column_option_list": [
+    "postgres.y"
+  ],
+  "alter_instance_action": [
+    "mysql.y"
+  ],
+  "alter_instance_stmt": [
+    "mysql.y"
+  ],
+  "alter_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_list_item": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_lock_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_lock_option_value": [
+    "mysql.y"
+  ],
+  "alter_logfile_group": [
+    "mysql.g4"
+  ],
+  "alter_logfile_group_info": [
+    "mariadb.y"
+  ],
+  "alter_logfile_group_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_logfile_group_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "alter_logfile_group_options": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "alter_logfile_stmt": [
+    "mysql.y"
+  ],
+  "alter_object_depends_stmt": [
+    "postgres.y"
+  ],
+  "alter_object_schema_stmt": [
+    "postgres.y"
+  ],
+  "alter_op_family_stmt": [
+    "postgres.y"
+  ],
+  "alter_operator_stmt": [
+    "postgres.y"
+  ],
+  "alter_opt_role_elem": [
+    "postgres.y"
+  ],
+  "alter_opt_role_list": [
+    "postgres.y"
+  ],
+  "alter_option": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "alter_option_list": [
+    "mariadb.y"
+  ],
+  "alter_options": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "alter_options_part2": [
+    "mariadb.y"
+  ],
+  "alter_order_clause": [
+    "mariadb.y"
+  ],
+  "alter_order_item": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "alter_order_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_owner_stmt": [
+    "postgres.y"
+  ],
+  "alter_partition": [
+    "mysql.g4"
+  ],
+  "alter_policy_stmt": [
+    "postgres.y"
+  ],
+  "alter_procedure_stmt": [
+    "mysql.y"
+  ],
+  "alter_publication_stmt": [
+    "postgres.y"
+  ],
+  "alter_resource_group": [
+    "mysql.g4"
+  ],
+  "alter_resource_group_stmt": [
+    "mysql.y"
+  ],
+  "alter_role_set_stmt": [
+    "postgres.y"
+  ],
+  "alter_role_stmt": [
+    "postgres.y"
+  ],
+  "alter_seq_stmt": [
+    "postgres.y"
+  ],
+  "alter_server": [
+    "mysql.g4"
+  ],
+  "alter_server_stmt": [
+    "mysql.y"
+  ],
+  "alter_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "alter_stats_stmt": [
+    "postgres.y"
+  ],
+  "alter_subscription_stmt": [
+    "postgres.y"
+  ],
+  "alter_system_stmt": [
+    "postgres.y"
+  ],
+  "alter_t_s_configuration_stmt": [
+    "postgres.y"
+  ],
+  "alter_t_s_dictionary_stmt": [
+    "postgres.y"
+  ],
+  "alter_table": [
+    "mysql.g4"
+  ],
+  "alter_table_actions": [
+    "mysql.g4"
+  ],
+  "alter_table_cmd": [
+    "postgres.y"
+  ],
+  "alter_table_cmds": [
+    "postgres.y"
+  ],
+  "alter_table_partition_options": [
+    "mysql.y"
+  ],
+  "alter_table_prefix": [
+    "vitesse.y"
+  ],
+  "alter_table_stmt": [
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "alter_tablespace": [
+    "mysql.g4"
+  ],
+  "alter_tablespace_info": [
+    "mariadb.y"
+  ],
+  "alter_tablespace_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_tablespace_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "alter_tablespace_options": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "alter_tablespace_stmt": [
+    "mysql.y"
+  ],
+  "alter_tbl_spc_stmt": [
+    "postgres.y"
+  ],
+  "alter_type_cmd": [
+    "postgres.y"
+  ],
+  "alter_type_cmds": [
+    "postgres.y"
+  ],
+  "alter_type_stmt": [
+    "postgres.y"
+  ],
+  "alter_undo_tablespace": [
+    "mysql.g4"
+  ],
+  "alter_undo_tablespace_stmt": [
+    "mysql.y"
+  ],
+  "alter_user": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_user_command": [
+    "mysql.y"
+  ],
+  "alter_user_entry": [
+    "mysql.g4"
+  ],
+  "alter_user_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "alter_user_mapping_stmt": [
+    "postgres.y"
+  ],
+  "alter_user_stmt": [
+    "mysql.y"
+  ],
+  "alter_user_tail": [
+    "mysql.g4"
+  ],
+  "alter_using": [
+    "postgres.y"
+  ],
+  "alter_view": [
+    "mysql.g4"
+  ],
+  "alter_view_stmt": [
+    "mysql.y"
+  ],
+  "alterfunc_opt_list": [
+    "postgres.y"
+  ],
+  "am_type": [
+    "postgres.y"
+  ],
+  "ampersand": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "analyze": [
+    "mariadb.y"
+  ],
+  "analyze_keyword": [
+    "postgres.y"
+  ],
+  "analyze_statement": [
+    "vitesse.y"
+  ],
+  "analyze_stmt": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "analyze_stmt_command": [
+    "mariadb.y"
+  ],
+  "analyze_table_elem_spec": [
+    "mariadb.y"
+  ],
+  "analyze_table_list": [
+    "mariadb.y"
+  ],
+  "analyze_table_stmt": [
+    "mysql.y"
+  ],
+  "and": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "any_command": [
+    "vitesse.y"
+  ],
+  "any_name": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "any_name_list": [
+    "postgres.y"
+  ],
+  "any_operator": [
+    "postgres.y"
+  ],
+  "any_with": [
+    "postgres.y"
+  ],
+  "anylist": [
+    "sqlite.y"
+  ],
+  "arc1": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "arc2": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "arc3": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "arg_class": [
+    "postgres.y"
+  ],
+  "argument": [
+    "sql92.bnf"
+  ],
+  "array_cast": [
+    "mysql.g4"
+  ],
+  "array_expr": [
+    "postgres.y"
+  ],
+  "array_expr_list": [
+    "postgres.y"
+  ],
+  "as_ci_opt": [
+    "vitesse.y"
+  ],
+  "as_create_query_expression": [
+    "mysql.y"
+  ],
+  "as_opt": [
+    "vitesse.y"
+  ],
+  "as_opt_id": [
+    "vitesse.y"
+  ],
+  "asc_desc": [
+    "sqlite.g4"
+  ],
+  "asc_desc_opt": [
+    "vitesse.y"
+  ],
+  "ascii": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "asrow_attribute": [
+    "mariadb.y"
+  ],
+  "assign_gtids_to_anonymous_transactions_def": [
+    "mysql.y"
+  ],
+  "assign_to_keycache": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "assign_to_keycache_partition": [
+    "mysql.g4"
+  ],
+  "assign_to_keycache_parts": [
+    "mariadb.y"
+  ],
+  "assignment_source_expr": [
+    "mariadb.y"
+  ],
+  "assignment_source_lex": [
+    "mariadb.y"
+  ],
+  "asterisk": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "attach_stmt": [
+    "sqlite.g4"
+  ],
+  "attr_name": [
+    "postgres.y"
+  ],
+  "attribute": [
+    "mariadb.y"
+  ],
+  "attribute_list": [
+    "mariadb.y"
+  ],
+  "attrs": [
+    "postgres.y"
+  ],
+  "auth_expression": [
+    "mariadb.y"
+  ],
+  "auth_ident": [
+    "postgres.y"
+  ],
+  "auth_token": [
+    "mariadb.y"
+  ],
+  "b_expr": [
+    "postgres.y"
+  ],
+  "backup": [
+    "mariadb.y"
+  ],
+  "backup_statements": [
+    "mariadb.y"
+  ],
+  "bare_col_label": [
+    "postgres.y"
+  ],
+  "bare_label_keyword": [
+    "postgres.y"
+  ],
+  "base_select": [
+    "vitesse.y"
+  ],
+  "base_window_name": [
+    "sqlite.g4"
+  ],
+  "begin_end_block": [
+    "mysql.g4"
+  ],
+  "begin_or_start": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "begin_statement": [
+    "vitesse.y"
+  ],
+  "begin_stmt": [
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "begin_stmt_mariadb": [
+    "mariadb.y"
+  ],
+  "begin_work": [
+    "mysql.g4"
+  ],
+  "binary": [
+    "mariadb.y"
+  ],
+  "binlog_base64_event": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "binlog_from": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "binlog_in": [
+    "mariadb.y"
+  ],
+  "bit": [
+    "postgres.y",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "bit_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "bit_with_length": [
+    "postgres.y"
+  ],
+  "bit_without_length": [
+    "postgres.y"
+  ],
+  "bool": [
+    "mariadb.y"
+  ],
+  "bool_literal": [
+    "mysql.g4"
+  ],
+  "bool_pri": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "boolean_value": [
+    "vitesse.y"
+  ],
+  "btree_or_rtree": [
+    "mariadb.y"
+  ],
+  "c_expr": [
+    "postgres.y"
+  ],
+  "cache_key_list": [
+    "mysql.g4"
+  ],
+  "cache_key_list_or_empty": [
+    "mariadb.y"
+  ],
+  "cache_keys_spec": [
+    "mariadb.y"
+  ],
+  "cache_opt": [
+    "vitesse.y"
+  ],
+  "call": [
+    "mariadb.y"
+  ],
+  "call_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "call_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "carglist": [
+    "sqlite.y"
+  ],
+  "cascade_or_local_opt": [
+    "vitesse.y"
+  ],
+  "case_arg": [
+    "postgres.y"
+  ],
+  "case_default": [
+    "postgres.y"
+  ],
+  "case_expr": [
+    "postgres.y"
+  ],
+  "case_statement": [
+    "mysql.g4"
+  ],
+  "case_stmt_body": [
+    "mariadb.y"
+  ],
+  "case_stmt_specification": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "cast_context": [
+    "postgres.y"
+  ],
+  "cast_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "cast_type_numeric": [
+    "mariadb.y"
+  ],
+  "cast_type_temporal": [
+    "mariadb.y"
+  ],
+  "ccons": [
+    "sqlite.y"
+  ],
+  "change": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "change_master": [
+    "mysql.g4"
+  ],
+  "change_master_options": [
+    "mysql.g4"
+  ],
+  "change_replication": [
+    "mysql.g4"
+  ],
+  "change_replication_source": [
+    "mysql.y"
+  ],
+  "change_replication_source_auto_position": [
+    "mysql.y"
+  ],
+  "change_replication_source_bind": [
+    "mysql.y"
+  ],
+  "change_replication_source_compression_algorithm": [
+    "mysql.y"
+  ],
+  "change_replication_source_connect_retry": [
+    "mysql.y"
+  ],
+  "change_replication_source_delay": [
+    "mysql.y"
+  ],
+  "change_replication_source_get_source_public_key": [
+    "mysql.y"
+  ],
+  "change_replication_source_heartbeat_period": [
+    "mysql.y"
+  ],
+  "change_replication_source_host": [
+    "mysql.y"
+  ],
+  "change_replication_source_password": [
+    "mysql.y"
+  ],
+  "change_replication_source_port": [
+    "mysql.y"
+  ],
+  "change_replication_source_public_key": [
+    "mysql.y"
+  ],
+  "change_replication_source_retry_count": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_ca": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_capath": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_cert": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_cipher": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_crl": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_crlpath": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_key": [
+    "mysql.y"
+  ],
+  "change_replication_source_ssl_verify_server_cert": [
+    "mysql.y"
+  ],
+  "change_replication_source_tls_ciphersuites": [
+    "mysql.y"
+  ],
+  "change_replication_source_tls_version": [
+    "mysql.y"
+  ],
+  "change_replication_source_user": [
+    "mysql.y"
+  ],
+  "change_replication_source_zstd_compression_level": [
+    "mysql.y"
+  ],
+  "change_tablespace_access": [
+    "mariadb.y"
+  ],
+  "change_tablespace_info": [
+    "mariadb.y"
+  ],
+  "change_tablespace_option": [
+    "mysql.g4"
+  ],
+  "change_ts_option": [
+    "mariadb.y"
+  ],
+  "change_ts_option_list": [
+    "mariadb.y"
+  ],
+  "change_ts_options": [
+    "mariadb.y"
+  ],
+  "channel": [
+    "mysql.g4"
+  ],
+  "char": [
+    "mariadb.y"
+  ],
+  "char_type": [
+    "vitesse.y"
+  ],
+  "character": [
+    "postgres.y",
+    "postgres.y"
+  ],
+  "character_set": [
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "character_with_length": [
+    "postgres.y"
+  ],
+  "character_without_length": [
+    "postgres.y"
+  ],
+  "charset": [
+    "mariadb.y",
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "charset_clause": [
+    "mysql.g4"
+  ],
+  "charset_name": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "charset_name_or_default": [
+    "mariadb.y"
+  ],
+  "charset_opt": [
+    "vitesse.y"
+  ],
+  "charset_or_alias": [
+    "mariadb.y"
+  ],
+  "charset_or_character_set": [
+    "vitesse.y"
+  ],
+  "charset_or_character_set_or_names": [
+    "vitesse.y"
+  ],
+  "charset_value": [
+    "vitesse.y"
+  ],
+  "charset_with_opt_binary": [
+    "mysql.g4"
+  ],
+  "check": [
+    "mariadb.y"
+  ],
+  "check_constraint": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "check_constraint_definition": [
+    "vitesse.y"
+  ],
+  "check_constraint_info": [
+    "vitesse.y"
+  ],
+  "check_option": [
+    "mysql.g4"
+  ],
+  "check_option_opt": [
+    "vitesse.y"
+  ],
+  "check_or_references": [
+    "mysql.g4"
+  ],
+  "check_point_stmt": [
+    "postgres.y"
+  ],
+  "check_table_stmt": [
+    "mysql.y"
+  ],
+  "check_view_or_table": [
+    "mariadb.y"
+  ],
+  "checksum": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "choice": [
+    "mariadb.y"
+  ],
+  "circumflex": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "clear_privileges": [
+    "mariadb.y"
+  ],
+  "clone_statement": [
+    "mysql.g4"
+  ],
+  "clone_stmt": [
+    "mysql.y"
+  ],
+  "close_portal_stmt": [
+    "postgres.y"
+  ],
+  "closeb": [
+    "vitesse.y"
+  ],
+  "cluster_index_specification": [
+    "postgres.y"
+  ],
+  "cluster_stmt": [
+    "postgres.y"
+  ],
+  "cmd": [
+    "sqlite.y"
+  ],
+  "cmdlist": [
+    "sqlite.y"
+  ],
+  "cmdx": [
+    "sqlite.y"
+  ],
+  "col_alias": [
+    "vitesse.y"
+  ],
+  "col_constraint": [
+    "postgres.y"
+  ],
+  "col_constraint_elem": [
+    "postgres.y"
+  ],
+  "col_id": [
+    "postgres.y"
+  ],
+  "col_label": [
+    "postgres.y"
+  ],
+  "col_name_keyword": [
+    "postgres.y"
+  ],
+  "col_qual_list": [
+    "postgres.y"
+  ],
+  "col_tuple": [
+    "vitesse.y"
+  ],
+  "collate": [
+    "mariadb.y",
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "collate_opt": [
+    "vitesse.y"
+  ],
+  "collation_name": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "collation_name_or_default": [
+    "mariadb.y"
+  ],
+  "colon": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "column_alias": [
+    "sqlite.g4"
+  ],
+  "column_attribute": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "column_attribute_list": [
+    "mysql.y"
+  ],
+  "column_attribute_list_opt": [
+    "vitesse.y"
+  ],
+  "column_compression": [
+    "postgres.y"
+  ],
+  "column_constraint": [
+    "sqlite.g4"
+  ],
+  "column_def": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "column_default_expr": [
+    "mariadb.y"
+  ],
+  "column_default_non_parenthesized_expr": [
+    "mariadb.y"
+  ],
+  "column_definition": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "column_definition_list": [
+    "vitesse.y"
+  ],
+  "column_elem": [
+    "postgres.y"
+  ],
+  "column_format": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "column_internal_ref": [
+    "mysql.g4"
+  ],
+  "column_internal_ref_list": [
+    "mysql.g4"
+  ],
+  "column_list": [
+    "mysql.y",
+    "postgres.y",
+    "vitesse.y"
+  ],
+  "column_list_opt": [
+    "vitesse.y"
+  ],
+  "column_list_privilege": [
+    "mariadb.y"
+  ],
+  "column_name": [
+    "mysql.g4",
+    "sqlite.g4",
+    "vitesse.y"
+  ],
+  "column_name_list": [
+    "sqlite.g4"
+  ],
+  "column_opt": [
+    "vitesse.y"
+  ],
+  "column_options": [
+    "postgres.y"
+  ],
+  "column_privilege": [
+    "mariadb.y"
+  ],
+  "column_ref": [
+    "mysql.g4"
+  ],
+  "column_storage": [
+    "vitesse.y"
+  ],
+  "column_type": [
+    "vitesse.y"
+  ],
+  "columnlist": [
+    "sqlite.y"
+  ],
+  "columnref": [
+    "postgres.y"
+  ],
+  "columns_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "columns_list": [
+    "mysql.y"
+  ],
+  "columns_or_fields": [
+    "vitesse.y"
+  ],
+  "comma": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "comma_separated_ident_list": [
+    "mariadb.y"
+  ],
+  "command": [
+    "vitesse.y"
+  ],
+  "comment": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "comment_list": [
+    "vitesse.y"
+  ],
+  "comment_opt": [
+    "vitesse.y"
+  ],
+  "comment_stmt": [
+    "postgres.y"
+  ],
+  "comment_text": [
+    "postgres.y"
+  ],
+  "commit": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "commit_statement": [
+    "vitesse.y"
+  ],
+  "commit_stmt": [
+    "sqlite.g4"
+  ],
+  "common_func_opt_item": [
+    "postgres.y"
+  ],
+  "common_index_option": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "common_table_expr": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "common_table_expression": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "common_table_stmt": [
+    "sqlite.g4"
+  ],
+  "comp_op": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "compare": [
+    "vitesse.y"
+  ],
+  "component_ref": [
+    "mysql.g4"
+  ],
+  "compound_operator": [
+    "sqlite.g4"
+  ],
+  "compound_select_stmt": [
+    "sqlite.g4"
+  ],
+  "compound_statement": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "compound_statement_list": [
+    "mysql.g4"
+  ],
+  "compressed": [
+    "mariadb.y"
+  ],
+  "compressed_deprecated_column_attribute": [
+    "mariadb.y"
+  ],
+  "compressed_deprecated_data_type_attribute": [
+    "mariadb.y"
+  ],
+  "concatenation": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "condition": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf",
+    "vitesse.y"
+  ],
+  "condition_declaration": [
+    "mysql.g4"
+  ],
+  "condition_information": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "condition_information_item": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "condition_information_item_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "condition_number": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "conflict_clause": [
+    "sqlite.g4"
+  ],
+  "connect_option": [
+    "mysql.y"
+  ],
+  "connect_option_list": [
+    "mysql.y"
+  ],
+  "connect_options": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "connection_name": [
+    "mariadb.y"
+  ],
+  "conslist": [
+    "sqlite.y"
+  ],
+  "const_bit": [
+    "postgres.y"
+  ],
+  "const_character": [
+    "postgres.y"
+  ],
+  "const_datetime": [
+    "postgres.y"
+  ],
+  "const_interval": [
+    "postgres.y"
+  ],
+  "const_typename": [
+    "postgres.y"
+  ],
+  "constraint": [
+    "mariadb.y"
+  ],
+  "constraint_attr": [
+    "postgres.y"
+  ],
+  "constraint_attribute_elem": [
+    "postgres.y"
+  ],
+  "constraint_attribute_spec": [
+    "postgres.y"
+  ],
+  "constraint_def": [
+    "mariadb.y"
+  ],
+  "constraint_definition": [
+    "vitesse.y"
+  ],
+  "constraint_elem": [
+    "postgres.y"
+  ],
+  "constraint_enforcement": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "constraint_info": [
+    "vitesse.y"
+  ],
+  "constraint_key_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "constraint_name": [
+    "mysql.g4"
+  ],
+  "constraint_name_opt": [
+    "vitesse.y"
+  ],
+  "constraints_set_list": [
+    "postgres.y"
+  ],
+  "constraints_set_mode": [
+    "postgres.y"
+  ],
+  "constraints_set_stmt": [
+    "postgres.y"
+  ],
+  "convert_type": [
+    "vitesse.y"
+  ],
+  "copy_delimiter": [
+    "postgres.y"
+  ],
+  "copy_file_name": [
+    "postgres.y"
+  ],
+  "copy_from": [
+    "postgres.y"
+  ],
+  "copy_generic_opt_arg": [
+    "postgres.y"
+  ],
+  "copy_generic_opt_arg_list": [
+    "postgres.y"
+  ],
+  "copy_generic_opt_arg_list_item": [
+    "postgres.y"
+  ],
+  "copy_generic_opt_elem": [
+    "postgres.y"
+  ],
+  "copy_generic_opt_list": [
+    "postgres.y"
+  ],
+  "copy_opt_item": [
+    "postgres.y"
+  ],
+  "copy_opt_list": [
+    "postgres.y"
+  ],
+  "copy_options": [
+    "postgres.y"
+  ],
+  "copy_stmt": [
+    "postgres.y"
+  ],
+  "create": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "create_am_stmt": [
+    "postgres.y"
+  ],
+  "create_as_stmt": [
+    "postgres.y"
+  ],
+  "create_as_target": [
+    "postgres.y"
+  ],
+  "create_assertion_stmt": [
+    "postgres.y"
+  ],
+  "create_body": [
+    "mariadb.y"
+  ],
+  "create_cast_stmt": [
+    "postgres.y"
+  ],
+  "create_conversion_stmt": [
+    "postgres.y"
+  ],
+  "create_database": [
+    "mysql.g4"
+  ],
+  "create_database_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_database_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "create_database_prefix": [
+    "vitesse.y"
+  ],
+  "create_domain_stmt": [
+    "postgres.y"
+  ],
+  "create_event": [
+    "mysql.g4"
+  ],
+  "create_event_trig_stmt": [
+    "postgres.y"
+  ],
+  "create_extension_opt_item": [
+    "postgres.y"
+  ],
+  "create_extension_opt_list": [
+    "postgres.y"
+  ],
+  "create_extension_stmt": [
+    "postgres.y"
+  ],
+  "create_fdw_stmt": [
+    "postgres.y"
+  ],
+  "create_field_list": [
+    "mariadb.y"
+  ],
+  "create_field_list_parens": [
+    "mariadb.y"
+  ],
+  "create_foreign_server_stmt": [
+    "postgres.y"
+  ],
+  "create_foreign_table_stmt": [
+    "postgres.y"
+  ],
+  "create_function": [
+    "mysql.g4"
+  ],
+  "create_function_stmt": [
+    "postgres.y"
+  ],
+  "create_generic_options": [
+    "postgres.y"
+  ],
+  "create_group_stmt": [
+    "postgres.y"
+  ],
+  "create_index": [
+    "mysql.g4"
+  ],
+  "create_index_prefix": [
+    "vitesse.y"
+  ],
+  "create_index_stmt": [
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "create_index_target": [
+    "mysql.g4"
+  ],
+  "create_like": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "create_logfile_group": [
+    "mysql.g4"
+  ],
+  "create_mat_view_stmt": [
+    "postgres.y"
+  ],
+  "create_mv_target": [
+    "postgres.y"
+  ],
+  "create_op_class_stmt": [
+    "postgres.y"
+  ],
+  "create_op_family_stmt": [
+    "postgres.y"
+  ],
+  "create_opt_role_elem": [
+    "postgres.y"
+  ],
+  "create_options": [
+    "vitesse.y"
+  ],
+  "create_options_opt": [
+    "vitesse.y"
+  ],
+  "create_or_replace": [
+    "mariadb.y"
+  ],
+  "create_p_lang_stmt": [
+    "postgres.y"
+  ],
+  "create_package_chistic": [
+    "mariadb.y"
+  ],
+  "create_package_chistics": [
+    "mariadb.y"
+  ],
+  "create_policy_stmt": [
+    "postgres.y"
+  ],
+  "create_procedure": [
+    "mysql.g4"
+  ],
+  "create_publication_stmt": [
+    "postgres.y"
+  ],
+  "create_resource_group": [
+    "mysql.g4"
+  ],
+  "create_resource_group_stmt": [
+    "mysql.y"
+  ],
+  "create_role": [
+    "mysql.g4"
+  ],
+  "create_role_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "create_routine": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "create_schema_stmt": [
+    "postgres.y"
+  ],
+  "create_select_query_expression": [
+    "mariadb.y"
+  ],
+  "create_seq_stmt": [
+    "postgres.y"
+  ],
+  "create_server": [
+    "mysql.g4"
+  ],
+  "create_spatial_reference": [
+    "mysql.g4"
+  ],
+  "create_srs_stmt": [
+    "mysql.y"
+  ],
+  "create_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "create_stats_stmt": [
+    "postgres.y"
+  ],
+  "create_stmt": [
+    "postgres.y"
+  ],
+  "create_subscription_stmt": [
+    "postgres.y"
+  ],
+  "create_table": [
+    "mysql.g4",
+    "sqlite.y"
+  ],
+  "create_table_args": [
+    "sqlite.y"
+  ],
+  "create_table_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_table_options": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_table_options_space_separated": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_table_prefix": [
+    "vitesse.y"
+  ],
+  "create_table_space_stmt": [
+    "postgres.y"
+  ],
+  "create_table_stmt": [
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "create_tablespace": [
+    "mysql.g4"
+  ],
+  "create_transform_stmt": [
+    "postgres.y"
+  ],
+  "create_trig_stmt": [
+    "postgres.y"
+  ],
+  "create_trigger": [
+    "mysql.g4"
+  ],
+  "create_trigger_stmt": [
+    "sqlite.g4"
+  ],
+  "create_udf": [
+    "mysql.g4"
+  ],
+  "create_undo_tablespace": [
+    "mysql.g4"
+  ],
+  "create_user": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_user_entry": [
+    "mysql.g4"
+  ],
+  "create_user_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "create_user_mapping_stmt": [
+    "postgres.y"
+  ],
+  "create_user_stmt": [
+    "postgres.y"
+  ],
+  "create_user_tail": [
+    "mysql.g4"
+  ],
+  "create_view": [
+    "mysql.g4"
+  ],
+  "create_view_stmt": [
+    "sqlite.g4"
+  ],
+  "create_virtual_table_stmt": [
+    "sqlite.g4"
+  ],
+  "create_vtab": [
+    "sqlite.y"
+  ],
+  "createdb_opt_item": [
+    "postgres.y"
+  ],
+  "createdb_opt_items": [
+    "postgres.y"
+  ],
+  "createdb_opt_list": [
+    "postgres.y"
+  ],
+  "createdb_opt_name": [
+    "postgres.y"
+  ],
+  "createdb_stmt": [
+    "postgres.y"
+  ],
+  "createfunc_opt_item": [
+    "postgres.y"
+  ],
+  "createfunc_opt_list": [
+    "postgres.y"
+  ],
+  "cte_list": [
+    "postgres.y"
+  ],
+  "cte_table_name": [
+    "sqlite.g4"
+  ],
+  "cube_clause": [
+    "postgres.y"
+  ],
+  "current_role": [
+    "mariadb.y"
+  ],
+  "cursor_actual_parameters": [
+    "mariadb.y"
+  ],
+  "cursor_close": [
+    "mysql.g4"
+  ],
+  "cursor_declaration": [
+    "mysql.g4"
+  ],
+  "cursor_fetch": [
+    "mysql.g4"
+  ],
+  "cursor_name": [
+    "postgres.y"
+  ],
+  "cursor_open": [
+    "mysql.g4"
+  ],
+  "cursor_options": [
+    "postgres.y"
+  ],
+  "data_dir_s_s_l": [
+    "mysql.g4"
+  ],
+  "data_or_xml": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "data_type": [
+    "mysql.g4"
+  ],
+  "data_type_definition": [
+    "mysql.g4"
+  ],
+  "database_kw_opt": [
+    "sqlite.y"
+  ],
+  "database_or_schema": [
+    "vitesse.y"
+  ],
+  "date_time_ttype": [
+    "mysql.g4"
+  ],
+  "date_time_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ddl_skip_to_end": [
+    "vitesse.y"
+  ],
+  "deallocate": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "deallocate_or_drop": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "deallocate_stmt": [
+    "postgres.y"
+  ],
+  "dec_num": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "dec_num_error": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "decimal_length_opt": [
+    "vitesse.y"
+  ],
+  "decimal_type": [
+    "vitesse.y"
+  ],
+  "declare_cursor_stmt": [
+    "postgres.y"
+  ],
+  "decode_when_list_oracle": [
+    "mariadb.y"
+  ],
+  "def_a_c_l_action": [
+    "postgres.y"
+  ],
+  "def_a_c_l_option": [
+    "postgres.y"
+  ],
+  "def_a_c_l_option_list": [
+    "postgres.y"
+  ],
+  "def_arg": [
+    "postgres.y"
+  ],
+  "def_elem": [
+    "postgres.y"
+  ],
+  "def_list": [
+    "postgres.y"
+  ],
+  "defacl_privilege_target": [
+    "postgres.y"
+  ],
+  "default__d_e_f_a_u_l_t__value": [
+    "sqlite.g4"
+  ],
+  "default_charset": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "default_collation": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "default_encryption": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "default_opt": [
+    "vitesse.y"
+  ],
+  "default_optional": [
+    "vitesse.y"
+  ],
+  "default_role_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "define_stmt": [
+    "postgres.y"
+  ],
+  "definer": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "definer_clause": [
+    "mysql.g4"
+  ],
+  "definer_opt": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "definer_tail": [
+    "mysql.y"
+  ],
+  "definition": [
+    "postgres.y"
+  ],
+  "delete": [
+    "mariadb.y"
+  ],
+  "delete_domain_id": [
+    "mariadb.y"
+  ],
+  "delete_domain_id_list": [
+    "mariadb.y"
+  ],
+  "delete_limit_clause": [
+    "mariadb.y"
+  ],
+  "delete_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "delete_part2": [
+    "mariadb.y"
+  ],
+  "delete_single_table": [
+    "mariadb.y"
+  ],
+  "delete_single_table_for_period": [
+    "mariadb.y"
+  ],
+  "delete_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "delete_statement_option": [
+    "mysql.g4"
+  ],
+  "delete_stmt": [
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "delete_stmt_limited": [
+    "sqlite.g4"
+  ],
+  "delete_table_list": [
+    "vitesse.y"
+  ],
+  "delete_table_name": [
+    "vitesse.y"
+  ],
+  "derived_table": [
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "derived_table_list": [
+    "mariadb.y"
+  ],
+  "describe": [
+    "mariadb.y"
+  ],
+  "describe_command": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "describe_statement": [
+    "mysql.g4"
+  ],
+  "describe_stmt": [
+    "mysql.y"
+  ],
+  "detach_stmt": [
+    "sqlite.g4"
+  ],
+  "diagnostics_information": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "digit": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "direction": [
+    "mysql.g4"
+  ],
+  "directly_executable_statement": [
+    "mariadb.y"
+  ],
+  "discard_old_password": [
+    "mysql.g4"
+  ],
+  "discard_stmt": [
+    "postgres.y"
+  ],
+  "distinct_clause": [
+    "postgres.y"
+  ],
+  "distinct_opt": [
+    "vitesse.y"
+  ],
+  "do": [
+    "mariadb.y"
+  ],
+  "do_domain_id": [
+    "mariadb.y"
+  ],
+  "do_domain_id_list": [
+    "mariadb.y"
+  ],
+  "do_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "do_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "document_or_content": [
+    "postgres.y"
+  ],
+  "dostmt_opt_item": [
+    "postgres.y"
+  ],
+  "dostmt_opt_list": [
+    "postgres.y"
+  ],
+  "dot_identifier": [
+    "mysql.g4"
+  ],
+  "drop": [
+    "mariadb.y"
+  ],
+  "drop_cast_stmt": [
+    "postgres.y"
+  ],
+  "drop_database": [
+    "mysql.g4"
+  ],
+  "drop_database_stmt": [
+    "mysql.y"
+  ],
+  "drop_event": [
+    "mysql.g4"
+  ],
+  "drop_event_stmt": [
+    "mysql.y"
+  ],
+  "drop_function": [
+    "mysql.g4"
+  ],
+  "drop_function_stmt": [
+    "mysql.y"
+  ],
+  "drop_index": [
+    "mysql.g4"
+  ],
+  "drop_index_stmt": [
+    "mysql.y"
+  ],
+  "drop_logfile_group": [
+    "mysql.g4"
+  ],
+  "drop_logfile_group_option": [
+    "mysql.g4"
+  ],
+  "drop_logfile_stmt": [
+    "mysql.y"
+  ],
+  "drop_op_class_stmt": [
+    "postgres.y"
+  ],
+  "drop_op_family_stmt": [
+    "postgres.y"
+  ],
+  "drop_option": [
+    "postgres.y"
+  ],
+  "drop_option_list": [
+    "postgres.y"
+  ],
+  "drop_owned_stmt": [
+    "postgres.y"
+  ],
+  "drop_procedure": [
+    "mysql.g4"
+  ],
+  "drop_procedure_stmt": [
+    "mysql.y"
+  ],
+  "drop_resource_group": [
+    "mysql.g4"
+  ],
+  "drop_resource_group_stmt": [
+    "mysql.y"
+  ],
+  "drop_role": [
+    "mysql.g4"
+  ],
+  "drop_role_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "drop_routine": [
+    "mariadb.y"
+  ],
+  "drop_server": [
+    "mysql.g4"
+  ],
+  "drop_server_stmt": [
+    "mysql.y"
+  ],
+  "drop_spatial_reference": [
+    "mysql.g4"
+  ],
+  "drop_srs_stmt": [
+    "mysql.y"
+  ],
+  "drop_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "drop_stmt": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "drop_subscription_stmt": [
+    "postgres.y"
+  ],
+  "drop_table": [
+    "mysql.g4"
+  ],
+  "drop_table_space": [
+    "mysql.g4"
+  ],
+  "drop_table_space_stmt": [
+    "postgres.y"
+  ],
+  "drop_table_stmt": [
+    "mysql.y"
+  ],
+  "drop_tablespace_stmt": [
+    "mysql.y"
+  ],
+  "drop_transform_stmt": [
+    "postgres.y"
+  ],
+  "drop_trigger": [
+    "mysql.g4"
+  ],
+  "drop_trigger_stmt": [
+    "mysql.y"
+  ],
+  "drop_ts_option": [
+    "mysql.y"
+  ],
+  "drop_ts_option_list": [
+    "mysql.y"
+  ],
+  "drop_type_name": [
+    "postgres.y"
+  ],
+  "drop_undo_tablespace": [
+    "mysql.g4"
+  ],
+  "drop_undo_tablespace_stmt": [
+    "mysql.y"
+  ],
+  "drop_user": [
+    "mysql.g4"
+  ],
+  "drop_user_mapping_stmt": [
+    "postgres.y"
+  ],
+  "drop_user_stmt": [
+    "mysql.y"
+  ],
+  "drop_view": [
+    "mysql.g4"
+  ],
+  "drop_view_stmt": [
+    "mysql.y"
+  ],
+  "dropdb_stmt": [
+    "postgres.y"
+  ],
+  "duplicate": [
+    "mysql.y"
+  ],
+  "duplicate_as_query_expression": [
+    "mysql.g4"
+  ],
+  "dyncall_create_element": [
+    "mariadb.y"
+  ],
+  "dyncall_create_list": [
+    "mariadb.y"
+  ],
+  "dyncol_type": [
+    "mariadb.y"
+  ],
+  "ecmd": [
+    "sqlite.y"
+  ],
+  "else_clause_opt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "else_expression": [
+    "mysql.g4"
+  ],
+  "else_expression_opt": [
+    "vitesse.y"
+  ],
+  "else_statement": [
+    "mysql.g4"
+  ],
+  "empty_grouping_set": [
+    "postgres.y"
+  ],
+  "enable_trigger": [
+    "postgres.y"
+  ],
+  "enforced_opt": [
+    "vitesse.y"
+  ],
+  "engine_or_all": [
+    "mysql.y"
+  ],
+  "engine_ref": [
+    "mysql.g4"
+  ],
+  "enum_val_list": [
+    "postgres.y"
+  ],
+  "enum_values": [
+    "vitesse.y"
+  ],
+  "equal": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "equal_opt": [
+    "vitesse.y"
+  ],
+  "error_message": [
+    "sqlite.g4"
+  ],
+  "esc_table_ref": [
+    "mariadb.y"
+  ],
+  "esc_table_reference": [
+    "mysql.y"
+  ],
+  "escaped_table_reference": [
+    "mysql.g4"
+  ],
+  "ev_alter_on_schedule_completion": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ev_ends": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ev_on_completion": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ev_schedule_time": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ev_sql_stmt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ev_sql_stmt_inner": [
+    "mysql.y"
+  ],
+  "ev_starts": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "event": [
+    "postgres.y"
+  ],
+  "event_name": [
+    "mysql.g4"
+  ],
+  "event_ref": [
+    "mysql.g4"
+  ],
+  "event_tail": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "event_trigger_value_list": [
+    "postgres.y"
+  ],
+  "event_trigger_when_item": [
+    "postgres.y"
+  ],
+  "event_trigger_when_list": [
+    "postgres.y"
+  ],
+  "except_role_list": [
+    "mysql.g4"
+  ],
+  "exception_handler": [
+    "mariadb.y"
+  ],
+  "exception_handlers": [
+    "mariadb.y"
+  ],
+  "exclusion_constraint_elem": [
+    "postgres.y"
+  ],
+  "exclusion_constraint_list": [
+    "postgres.y"
+  ],
+  "execute": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "execute_param_clause": [
+    "postgres.y"
+  ],
+  "execute_params": [
+    "mariadb.y"
+  ],
+  "execute_statement": [
+    "mysql.g4"
+  ],
+  "execute_stmt": [
+    "postgres.y"
+  ],
+  "execute_using": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "execute_var_ident": [
+    "mysql.y"
+  ],
+  "execute_var_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "existing_index": [
+    "postgres.y"
+  ],
+  "exists_opt": [
+    "vitesse.y"
+  ],
+  "explain": [
+    "sqlite.y"
+  ],
+  "explain_format_opt": [
+    "vitesse.y"
+  ],
+  "explain_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "explain_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "explain_synonyms": [
+    "vitesse.y"
+  ],
+  "explainable_command": [
+    "mariadb.y"
+  ],
+  "explainable_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "explainable_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "explicit_cursor_attr": [
+    "mariadb.y"
+  ],
+  "explicit_row": [
+    "postgres.y"
+  ],
+  "explicit_table": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "exponent": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "export_options": [
+    "vitesse.y"
+  ],
+  "expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "expr_asc_desc": [
+    "sqlite.g4"
+  ],
+  "expr_lex": [
+    "mariadb.y"
+  ],
+  "expr_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "expr_list_with_parentheses": [
+    "mysql.g4"
+  ],
+  "expr_or_default": [
+    "mysql.y"
+  ],
+  "expr_or_ignore": [
+    "mariadb.y"
+  ],
+  "expr_or_ignore_or_default": [
+    "mariadb.y"
+  ],
+  "expr_or_literal": [
+    "mariadb.y"
+  ],
+  "expr_with_parentheses": [
+    "mysql.g4"
+  ],
+  "expression": [
+    "vitesse.y"
+  ],
+  "expression_list": [
+    "vitesse.y"
+  ],
+  "expression_list_opt": [
+    "vitesse.y"
+  ],
+  "expression_opt": [
+    "vitesse.y"
+  ],
+  "extended_opt": [
+    "vitesse.y"
+  ],
+  "extract_arg": [
+    "postgres.y"
+  ],
+  "extract_list": [
+    "postgres.y"
+  ],
+  "f_u_n_c_t_i_o_n_or__p_r_o_c_e_d_u_r_e": [
+    "postgres.y"
+  ],
+  "factor": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "factored_select_stmt": [
+    "sqlite.g4"
+  ],
+  "fdw_option": [
+    "postgres.y"
+  ],
+  "fdw_options": [
+    "postgres.y"
+  ],
+  "fetch_args": [
+    "postgres.y"
+  ],
+  "fetch_first_clause": [
+    "mariadb.y"
+  ],
+  "fetch_stmt": [
+    "postgres.y"
+  ],
+  "field_def": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "field_definition": [
+    "mysql.g4"
+  ],
+  "field_ident": [
+    "mariadb.y"
+  ],
+  "field_identifier": [
+    "mysql.g4"
+  ],
+  "field_length": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "field_list": [
+    "mariadb.y"
+  ],
+  "field_list_item": [
+    "mariadb.y"
+  ],
+  "field_opt_list": [
+    "mysql.y"
+  ],
+  "field_option": [
+    "mysql.y"
+  ],
+  "field_options": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "field_or_var": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "field_or_variable_list": [
+    "mysql.g4"
+  ],
+  "field_spec": [
+    "mariadb.y"
+  ],
+  "field_term": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "field_term_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "field_type": [
+    "mariadb.y"
+  ],
+  "field_type_all": [
+    "mariadb.y"
+  ],
+  "field_type_lob": [
+    "mariadb.y"
+  ],
+  "field_type_misc": [
+    "mariadb.y"
+  ],
+  "field_type_numeric": [
+    "mariadb.y"
+  ],
+  "field_type_or_serial": [
+    "mariadb.y"
+  ],
+  "field_type_string": [
+    "mariadb.y"
+  ],
+  "field_type_temporal": [
+    "mariadb.y"
+  ],
+  "fields": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "fields_clause": [
+    "mysql.g4"
+  ],
+  "fields_opt": [
+    "vitesse.y"
+  ],
+  "fields_opt_list": [
+    "vitesse.y"
+  ],
+  "fields_opts": [
+    "vitesse.y"
+  ],
+  "fields_or_vars": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "file_name": [
+    "postgres.y"
+  ],
+  "filename": [
+    "sqlite.g4"
+  ],
+  "filter_clause": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "filter_db_ident": [
+    "mysql.y"
+  ],
+  "filter_db_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "filter_db_pair_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "filter_def": [
+    "mysql.y"
+  ],
+  "filter_definition": [
+    "mysql.g4"
+  ],
+  "filter_defs": [
+    "mysql.y"
+  ],
+  "filter_string": [
+    "mysql.y"
+  ],
+  "filter_string_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "filter_table_ident": [
+    "mysql.y"
+  ],
+  "filter_table_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "filter_table_ref": [
+    "mysql.g4"
+  ],
+  "filter_wild_db_table_string": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "finality": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "first_opt": [
+    "vitesse.y"
+  ],
+  "first_or_next": [
+    "mariadb.y",
+    "postgres.y"
+  ],
+  "fk_on_delete": [
+    "vitesse.y"
+  ],
+  "fk_on_update": [
+    "vitesse.y"
+  ],
+  "fk_reference_action": [
+    "vitesse.y"
+  ],
+  "float_length_opt": [
+    "vitesse.y"
+  ],
+  "float_options": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "flush": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "flush_lock": [
+    "mariadb.y"
+  ],
+  "flush_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "flush_option_list": [
+    "vitesse.y"
+  ],
+  "flush_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "flush_options_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "flush_statement": [
+    "vitesse.y"
+  ],
+  "flush_tables": [
+    "mysql.g4"
+  ],
+  "flush_tables_options": [
+    "mysql.g4"
+  ],
+  "fold": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "for_channel_opt": [
+    "vitesse.y"
+  ],
+  "for_from": [
+    "vitesse.y"
+  ],
+  "for_locking_clause": [
+    "postgres.y"
+  ],
+  "for_locking_item": [
+    "postgres.y"
+  ],
+  "for_locking_items": [
+    "postgres.y"
+  ],
+  "for_locking_strength": [
+    "postgres.y"
+  ],
+  "for_loop_bound_expr": [
+    "mariadb.y"
+  ],
+  "for_loop_statements": [
+    "mariadb.y"
+  ],
+  "for_portion_of_time_clause": [
+    "mariadb.y"
+  ],
+  "foreach_clause": [
+    "sqlite.y"
+  ],
+  "foreign_key_clause": [
+    "sqlite.g4"
+  ],
+  "foreign_server_version": [
+    "postgres.y"
+  ],
+  "foreign_table": [
+    "sqlite.g4"
+  ],
+  "format_opt": [
+    "vitesse.y"
+  ],
+  "fractional_precision": [
+    "mysql.g4"
+  ],
+  "frame_bound": [
+    "postgres.y"
+  ],
+  "frame_clause": [
+    "sqlite.g4"
+  ],
+  "frame_extent": [
+    "postgres.y"
+  ],
+  "frame_left": [
+    "sqlite.g4"
+  ],
+  "frame_right": [
+    "sqlite.g4"
+  ],
+  "frame_single": [
+    "sqlite.g4"
+  ],
+  "frame_spec": [
+    "sqlite.g4"
+  ],
+  "from_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "from_database_opt": [
+    "vitesse.y"
+  ],
+  "from_in": [
+    "postgres.y"
+  ],
+  "from_list": [
+    "postgres.y"
+  ],
+  "from_opt": [
+    "vitesse.y"
+  ],
+  "from_or_in": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "from_or_using": [
+    "vitesse.y"
+  ],
+  "from_tables": [
+    "mysql.y"
+  ],
+  "full_opt": [
+    "vitesse.y"
+  ],
+  "fulltext": [
+    "mariadb.y"
+  ],
+  "fulltext_index_option": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "fulltext_index_options": [
+    "mysql.y"
+  ],
+  "fulltext_key_opt": [
+    "mariadb.y"
+  ],
+  "fulltext_key_options": [
+    "mariadb.y"
+  ],
+  "fulltext_key_opts": [
+    "mariadb.y"
+  ],
+  "fulltext_options": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "func_alias_clause": [
+    "postgres.y"
+  ],
+  "func_application": [
+    "postgres.y"
+  ],
+  "func_arg": [
+    "postgres.y"
+  ],
+  "func_arg_expr": [
+    "postgres.y"
+  ],
+  "func_arg_list": [
+    "postgres.y"
+  ],
+  "func_arg_list_opt": [
+    "postgres.y"
+  ],
+  "func_arg_with_default": [
+    "postgres.y"
+  ],
+  "func_args": [
+    "postgres.y"
+  ],
+  "func_args_list": [
+    "postgres.y"
+  ],
+  "func_args_with_defaults": [
+    "postgres.y"
+  ],
+  "func_args_with_defaults_list": [
+    "postgres.y"
+  ],
+  "func_as": [
+    "postgres.y"
+  ],
+  "func_datetime_precision": [
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "func_expr": [
+    "postgres.y"
+  ],
+  "func_expr_common_subexpr": [
+    "postgres.y"
+  ],
+  "func_expr_windowless": [
+    "postgres.y"
+  ],
+  "func_name": [
+    "postgres.y"
+  ],
+  "func_paren_opt": [
+    "vitesse.y"
+  ],
+  "func_return": [
+    "postgres.y"
+  ],
+  "func_table": [
+    "postgres.y"
+  ],
+  "func_type": [
+    "postgres.y"
+  ],
+  "function_call": [
+    "mysql.g4"
+  ],
+  "function_call_conflict": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "function_call_generic": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "function_call_keyword": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "function_call_keyword_timestamp": [
+    "mariadb.y"
+  ],
+  "function_call_nonkeyword": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "function_name": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "function_parameter": [
+    "mysql.g4"
+  ],
+  "function_ref": [
+    "mysql.g4"
+  ],
+  "function_set_reset_clause": [
+    "postgres.y"
+  ],
+  "function_with_argtypes": [
+    "postgres.y"
+  ],
+  "function_with_argtypes_list": [
+    "postgres.y"
+  ],
+  "gcol_attribute": [
+    "mysql.g4"
+  ],
+  "generated": [
+    "sqlite.y"
+  ],
+  "generated_always_opt": [
+    "vitesse.y"
+  ],
+  "generated_column_attribute_list_opt": [
+    "vitesse.y"
+  ],
+  "generated_when": [
+    "postgres.y"
+  ],
+  "generic_option_arg": [
+    "postgres.y"
+  ],
+  "generic_option_elem": [
+    "postgres.y"
+  ],
+  "generic_option_list": [
+    "postgres.y"
+  ],
+  "generic_option_name": [
+    "postgres.y"
+  ],
+  "generic_reset": [
+    "postgres.y"
+  ],
+  "generic_set": [
+    "postgres.y"
+  ],
+  "generic_type": [
+    "postgres.y"
+  ],
+  "geometry_function": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "get_diagnostics": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "glimit_clause": [
+    "mariadb.y"
+  ],
+  "glimit_options": [
+    "mariadb.y"
+  ],
+  "gorder_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "grant": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "grant_as": [
+    "mysql.g4"
+  ],
+  "grant_command": [
+    "mariadb.y"
+  ],
+  "grant_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "grant_identifier": [
+    "mysql.g4"
+  ],
+  "grant_list": [
+    "mariadb.y"
+  ],
+  "grant_option": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "grant_option_list": [
+    "mariadb.y"
+  ],
+  "grant_options": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "grant_privileges": [
+    "mariadb.y"
+  ],
+  "grant_role": [
+    "mariadb.y"
+  ],
+  "grant_role_stmt": [
+    "postgres.y"
+  ],
+  "grant_stmt": [
+    "postgres.y"
+  ],
+  "grant_target_list": [
+    "mysql.g4"
+  ],
+  "grant_user": [
+    "mariadb.y"
+  ],
+  "grantee": [
+    "postgres.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "grantee_list": [
+    "postgres.y"
+  ],
+  "grantor": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "group_by_clause": [
+    "mysql.g4"
+  ],
+  "group_by_item": [
+    "postgres.y"
+  ],
+  "group_by_list": [
+    "postgres.y"
+  ],
+  "group_by_opt": [
+    "vitesse.y"
+  ],
+  "group_clause": [
+    "postgres.y"
+  ],
+  "group_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "group_replication": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "group_replication_password": [
+    "mysql.y"
+  ],
+  "group_replication_plugin_auth": [
+    "mysql.y"
+  ],
+  "group_replication_start": [
+    "mysql.y"
+  ],
+  "group_replication_start_option": [
+    "mysql.y"
+  ],
+  "group_replication_start_options": [
+    "mysql.y"
+  ],
+  "group_replication_user": [
+    "mysql.y"
+  ],
+  "grouping_expr": [
+    "mysql.y"
+  ],
+  "grouping_expression": [
+    "mysql.g4"
+  ],
+  "grouping_operation": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "grouping_sets_clause": [
+    "postgres.y"
+  ],
+  "handler": [
+    "mariadb.y"
+  ],
+  "handler_condition": [
+    "mysql.g4"
+  ],
+  "handler_declaration": [
+    "mysql.g4"
+  ],
+  "handler_name": [
+    "postgres.y"
+  ],
+  "handler_read_or_scan": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "handler_rkey_function": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "handler_rkey_mode": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "handler_scan_function": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "handler_statement": [
+    "mysql.g4"
+  ],
+  "handler_stmt": [
+    "mysql.y"
+  ],
+  "handler_tail": [
+    "mariadb.y"
+  ],
+  "hash_partbound": [
+    "postgres.y"
+  ],
+  "hash_partbound_elem": [
+    "postgres.y"
+  ],
+  "have_partitioning": [
+    "mariadb.y"
+  ],
+  "having_clause": [
+    "mysql.g4",
+    "postgres.y"
+  ],
+  "having_opt": [
+    "vitesse.y"
+  ],
+  "header_opt": [
+    "vitesse.y"
+  ],
+  "help": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "help_command": [
+    "mysql.g4"
+  ],
+  "hex_or_bin__string": [
+    "mariadb.y"
+  ],
+  "hexit": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "high": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "histogram": [
+    "mysql.g4"
+  ],
+  "history_point": [
+    "mariadb.y"
+  ],
+  "i_d_e_n_t_cli": [
+    "mariadb.y"
+  ],
+  "i_d_e_n_t_sys": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "i_or__f_const": [
+    "postgres.y"
+  ],
+  "iconst": [
+    "postgres.y"
+  ],
+  "id_or_var": [
+    "vitesse.y"
+  ],
+  "id_or_var_opt": [
+    "vitesse.y"
+  ],
+  "ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ident_cli": [
+    "mariadb.y"
+  ],
+  "ident_cli_directly_assignable": [
+    "mariadb.y"
+  ],
+  "ident_cli_set_usual_case": [
+    "mariadb.y"
+  ],
+  "ident_directly_assignable": [
+    "mariadb.y"
+  ],
+  "ident_eq_list": [
+    "mariadb.y"
+  ],
+  "ident_eq_value": [
+    "mariadb.y"
+  ],
+  "ident_for_loop_index": [
+    "mariadb.y"
+  ],
+  "ident_keyword": [
+    "mysql.y"
+  ],
+  "ident_keywords_ambiguous_1_roles_and_labels": [
+    "mysql.y"
+  ],
+  "ident_keywords_ambiguous_2_labels": [
+    "mysql.y"
+  ],
+  "ident_keywords_ambiguous_3_roles": [
+    "mysql.y"
+  ],
+  "ident_keywords_ambiguous_4_system_variables": [
+    "mysql.y"
+  ],
+  "ident_keywords_unambiguous": [
+    "mysql.y"
+  ],
+  "ident_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ident_list_arg": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ident_or_empty": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ident_or_text": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ident_string_list": [
+    "mysql.y"
+  ],
+  "ident_sys_alloc": [
+    "mariadb.y"
+  ],
+  "ident_sysvar_name": [
+    "mariadb.y"
+  ],
+  "ident_table_alias": [
+    "mariadb.y"
+  ],
+  "identifier": [
+    "mysql.g4",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "identifier_keyword": [
+    "mysql.g4"
+  ],
+  "identifier_keywords_ambiguous1_roles_and_labels": [
+    "mysql.g4"
+  ],
+  "identifier_keywords_ambiguous2_labels": [
+    "mysql.g4"
+  ],
+  "identifier_keywords_ambiguous3_roles": [
+    "mysql.g4"
+  ],
+  "identifier_keywords_ambiguous4_system_variables": [
+    "mysql.g4"
+  ],
+  "identifier_keywords_unambiguous": [
+    "mysql.g4"
+  ],
+  "identifier_list": [
+    "mysql.g4"
+  ],
+  "identifier_list_with_parentheses": [
+    "mysql.g4"
+  ],
+  "if_body": [
+    "mysql.g4"
+  ],
+  "if_exists": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "if_not_exists": [
+    "mysql.g4"
+  ],
+  "if_statement": [
+    "mysql.g4"
+  ],
+  "ignorability": [
+    "mariadb.y"
+  ],
+  "ignore_domain_id": [
+    "mariadb.y"
+  ],
+  "ignore_domain_id_list": [
+    "mariadb.y"
+  ],
+  "ignore_opt": [
+    "vitesse.y"
+  ],
+  "ignore_server_id": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ignore_server_id_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "implicit_row": [
+    "postgres.y"
+  ],
+  "import_foreign_schema_stmt": [
+    "postgres.y"
+  ],
+  "import_qualification": [
+    "postgres.y"
+  ],
+  "import_qualification_type": [
+    "postgres.y"
+  ],
+  "import_statement": [
+    "mysql.g4"
+  ],
+  "import_stmt": [
+    "mysql.y"
+  ],
+  "in_db": [
+    "mysql.g4"
+  ],
+  "in_expr": [
+    "postgres.y"
+  ],
+  "in_sum_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "index_column": [
+    "vitesse.y"
+  ],
+  "index_column_list": [
+    "vitesse.y"
+  ],
+  "index_definition": [
+    "vitesse.y"
+  ],
+  "index_elem": [
+    "postgres.y"
+  ],
+  "index_elem_options": [
+    "postgres.y"
+  ],
+  "index_hint": [
+    "mysql.g4"
+  ],
+  "index_hint_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "index_hint_definition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "index_hint_list": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "index_hint_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "index_hints_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "index_including_params": [
+    "postgres.y"
+  ],
+  "index_info": [
+    "vitesse.y"
+  ],
+  "index_list": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "index_list_element": [
+    "mysql.g4"
+  ],
+  "index_lock_and_algorithm": [
+    "mysql.g4"
+  ],
+  "index_name": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "index_name_and_type": [
+    "mysql.g4"
+  ],
+  "index_option": [
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "index_option_list": [
+    "vitesse.y"
+  ],
+  "index_option_list_opt": [
+    "vitesse.y"
+  ],
+  "index_options": [
+    "mysql.y"
+  ],
+  "index_or_key": [
+    "vitesse.y"
+  ],
+  "index_or_key_opt": [
+    "vitesse.y"
+  ],
+  "index_params": [
+    "postgres.y"
+  ],
+  "index_partition_cmd": [
+    "postgres.y"
+  ],
+  "index_ref": [
+    "mysql.g4"
+  ],
+  "index_stmt": [
+    "postgres.y"
+  ],
+  "index_symbols": [
+    "vitesse.y"
+  ],
+  "index_type": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "index_type_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "indexed_column": [
+    "sqlite.g4"
+  ],
+  "indirection": [
+    "postgres.y"
+  ],
+  "indirection_el": [
+    "postgres.y"
+  ],
+  "init_lex_create_info": [
+    "mysql.y"
+  ],
+  "initial_select": [
+    "sqlite.g4"
+  ],
+  "inner_join": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "inner_join_type": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "input": [
+    "sqlite.y"
+  ],
+  "ins_column_list": [
+    "vitesse.y"
+  ],
+  "insert": [
+    "mariadb.y"
+  ],
+  "insert_column_item": [
+    "postgres.y"
+  ],
+  "insert_column_list": [
+    "postgres.y"
+  ],
+  "insert_data": [
+    "vitesse.y"
+  ],
+  "insert_field_list": [
+    "mariadb.y"
+  ],
+  "insert_field_spec": [
+    "mariadb.y"
+  ],
+  "insert_from_constructor": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "insert_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "insert_identifier": [
+    "mysql.g4"
+  ],
+  "insert_lock_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "insert_method_options": [
+    "vitesse.y"
+  ],
+  "insert_or_replace": [
+    "vitesse.y"
+  ],
+  "insert_query_expression": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "insert_replace_option": [
+    "mariadb.y"
+  ],
+  "insert_rest": [
+    "postgres.y"
+  ],
+  "insert_start": [
+    "mariadb.y"
+  ],
+  "insert_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "insert_stmt": [
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "insert_table": [
+    "mariadb.y"
+  ],
+  "insert_target": [
+    "postgres.y"
+  ],
+  "insert_update_elem": [
+    "mariadb.y"
+  ],
+  "insert_update_list": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "insert_values": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "install": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "install_uninstall_statment": [
+    "mysql.g4"
+  ],
+  "int64_literal": [
+    "mysql.y"
+  ],
+  "int_num": [
+    "mariadb.y"
+  ],
+  "int_type": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "intermediate": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "internal_variable_name": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "interval": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "interval_second": [
+    "postgres.y"
+  ],
+  "interval_time_stamp": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "into": [
+    "mariadb.y"
+  ],
+  "into_clause": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "into_destination": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "into_option": [
+    "vitesse.y"
+  ],
+  "into_table_name": [
+    "vitesse.y"
+  ],
+  "introducer": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "inverse_distribution_function": [
+    "mariadb.y"
+  ],
+  "inverse_distribution_function_def": [
+    "mariadb.y"
+  ],
+  "is_suffix": [
+    "vitesse.y"
+  ],
+  "iso_level": [
+    "postgres.y"
+  ],
+  "isolation_level": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "isolation_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "iterate_statement": [
+    "mysql.g4"
+  ],
+  "join_clause": [
+    "sqlite.g4"
+  ],
+  "join_condition": [
+    "vitesse.y"
+  ],
+  "join_condition_opt": [
+    "vitesse.y"
+  ],
+  "join_constraint": [
+    "sqlite.g4"
+  ],
+  "join_operator": [
+    "sqlite.g4"
+  ],
+  "join_qual": [
+    "postgres.y"
+  ],
+  "join_table": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "join_table_list": [
+    "mariadb.y"
+  ],
+  "join_table_parens": [
+    "mariadb.y"
+  ],
+  "join_type": [
+    "postgres.y"
+  ],
+  "joined_table": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "joined_table_parens": [
+    "mysql.y"
+  ],
+  "json_attribute": [
+    "mysql.y"
+  ],
+  "json_function": [
+    "mysql.g4"
+  ],
+  "json_on_empty_response": [
+    "mariadb.y"
+  ],
+  "json_on_error_response": [
+    "mariadb.y"
+  ],
+  "json_on_response": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "json_operator": [
+    "mysql.g4"
+  ],
+  "json_opt_on_empty_or_error": [
+    "mariadb.y"
+  ],
+  "json_table_column": [
+    "mariadb.y"
+  ],
+  "json_table_column_type": [
+    "mariadb.y"
+  ],
+  "json_table_columns_clause": [
+    "mariadb.y"
+  ],
+  "json_table_columns_list": [
+    "mariadb.y"
+  ],
+  "json_table_field_type": [
+    "mariadb.y"
+  ],
+  "json_text_literal": [
+    "mariadb.y"
+  ],
+  "jt_column": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "jt_column_type": [
+    "mysql.y"
+  ],
+  "jt_on_response": [
+    "mysql.g4"
+  ],
+  "keep_gcc_happy": [
+    "mariadb.y"
+  ],
+  "key_action": [
+    "postgres.y"
+  ],
+  "key_actions": [
+    "postgres.y"
+  ],
+  "key_cache_list": [
+    "mysql.g4"
+  ],
+  "key_cache_list_or_parts": [
+    "mysql.g4"
+  ],
+  "key_cache_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "key_def": [
+    "mariadb.y"
+  ],
+  "key_delete": [
+    "postgres.y"
+  ],
+  "key_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_list_variants": [
+    "mysql.g4"
+  ],
+  "key_list_with_expression": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_match": [
+    "postgres.y"
+  ],
+  "key_or_index": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_part": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_part_or_expression": [
+    "mysql.g4"
+  ],
+  "key_part_with_expression": [
+    "mysql.y"
+  ],
+  "key_update": [
+    "postgres.y"
+  ],
+  "key_usage_element": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_usage_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "key_using_alg": [
+    "mariadb.y"
+  ],
+  "keycache": [
+    "mariadb.y"
+  ],
+  "keycache_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "keycache_list_or_parts": [
+    "mariadb.y"
+  ],
+  "keycache_stmt": [
+    "mysql.y"
+  ],
+  "keys": [
+    "vitesse.y"
+  ],
+  "keys_or_index": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "keyword": [
+    "sqlite.g4"
+  ],
+  "keyword_cast_type": [
+    "mariadb.y"
+  ],
+  "keyword_data_type": [
+    "mariadb.y"
+  ],
+  "keyword_directly_assignable": [
+    "mariadb.y"
+  ],
+  "keyword_ident": [
+    "mariadb.y"
+  ],
+  "keyword_label": [
+    "mariadb.y"
+  ],
+  "keyword_set_special_case": [
+    "mariadb.y"
+  ],
+  "keyword_set_usual_case": [
+    "mariadb.y"
+  ],
+  "keyword_sp_block_section": [
+    "mariadb.y"
+  ],
+  "keyword_sp_decl": [
+    "mariadb.y"
+  ],
+  "keyword_sp_head": [
+    "mariadb.y"
+  ],
+  "keyword_sp_var_and_label": [
+    "mariadb.y"
+  ],
+  "keyword_sp_var_not_label": [
+    "mariadb.y"
+  ],
+  "keyword_sysvar_name": [
+    "mariadb.y"
+  ],
+  "keyword_sysvar_type": [
+    "mariadb.y"
+  ],
+  "keyword_table_alias": [
+    "mariadb.y"
+  ],
+  "keyword_verb_clause": [
+    "mariadb.y"
+  ],
+  "kill": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "kill_expr": [
+    "mariadb.y"
+  ],
+  "kill_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "kill_type": [
+    "mariadb.y"
+  ],
+  "known_storage_engines": [
+    "mariadb.y"
+  ],
+  "kwcolumn_opt": [
+    "sqlite.y"
+  ],
+  "l_value_identifier": [
+    "mysql.g4"
+  ],
+  "l_value_keyword": [
+    "mysql.g4"
+  ],
+  "label": [
+    "mysql.g4"
+  ],
+  "label_declaration_oracle": [
+    "mariadb.y"
+  ],
+  "label_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "label_identifier": [
+    "mysql.g4"
+  ],
+  "label_keyword": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "label_ref": [
+    "mysql.g4"
+  ],
+  "labeled_block": [
+    "mysql.g4"
+  ],
+  "labeled_control": [
+    "mysql.g4"
+  ],
+  "labels_declaration_oracle": [
+    "mariadb.y"
+  ],
+  "last_field_options": [
+    "mariadb.y"
+  ],
+  "lead_lag_info": [
+    "mysql.g4"
+  ],
+  "leave_statement": [
+    "mysql.g4"
+  ],
+  "length": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "length_opt": [
+    "vitesse.y"
+  ],
+  "level": [
+    "sql99.bnf"
+  ],
+  "lg_redofile": [
+    "mariadb.y"
+  ],
+  "lg_undofile": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "like_clause": [
+    "mysql.g4"
+  ],
+  "like_escape_opt": [
+    "vitesse.y"
+  ],
+  "like_opt": [
+    "vitesse.y"
+  ],
+  "like_or_where": [
+    "mysql.g4"
+  ],
+  "like_or_where_opt": [
+    "vitesse.y"
+  ],
+  "limit_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "limit_opt": [
+    "vitesse.y"
+  ],
+  "limit_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "limit_options": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "limit_rows_option": [
+    "mariadb.y"
+  ],
+  "limit_stmt": [
+    "sqlite.g4"
+  ],
+  "line_term": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "line_term_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "lines_clause": [
+    "mysql.g4"
+  ],
+  "lines_opt": [
+    "vitesse.y"
+  ],
+  "lines_opt_list": [
+    "vitesse.y"
+  ],
+  "lines_opts": [
+    "vitesse.y"
+  ],
+  "lines_or_rows": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "listen_stmt": [
+    "postgres.y"
+  ],
+  "literal": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "literal_or_null": [
+    "mysql.y"
+  ],
+  "literal_value": [
+    "sqlite.g4"
+  ],
+  "load": [
+    "mariadb.y"
+  ],
+  "load_data_file_tail": [
+    "mysql.g4"
+  ],
+  "load_data_file_target_list": [
+    "mysql.g4"
+  ],
+  "load_data_lock": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "load_data_set_elem": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "load_data_set_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "load_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "load_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "local_opt": [
+    "vitesse.y"
+  ],
+  "lock": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "lock_index": [
+    "vitesse.y"
+  ],
+  "lock_item": [
+    "mysql.g4"
+  ],
+  "lock_opt": [
+    "vitesse.y"
+  ],
+  "lock_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "lock_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "lock_stmt": [
+    "postgres.y"
+  ],
+  "lock_strengh": [
+    "mysql.g4"
+  ],
+  "lock_strength": [
+    "mysql.y"
+  ],
+  "lock_table": [
+    "vitesse.y"
+  ],
+  "lock_table_list": [
+    "vitesse.y"
+  ],
+  "lock_type": [
+    "postgres.y",
+    "vitesse.y"
+  ],
+  "locked_rels_list": [
+    "postgres.y"
+  ],
+  "locked_row_action": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "locking_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "locking_clause_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "log_type": [
+    "mysql.g4"
+  ],
+  "logfile_group_info": [
+    "mariadb.y"
+  ],
+  "logfile_group_name": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "logfile_group_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "logfile_group_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "logfile_group_options": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "logfile_group_ref": [
+    "mysql.g4"
+  ],
+  "longlong_num": [
+    "mariadb.y"
+  ],
+  "loop_block": [
+    "mysql.g4"
+  ],
+  "loop_body": [
+    "mariadb.y"
+  ],
+  "low": [
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "lp": [
+    "sqlite.y"
+  ],
+  "lvalue_ident": [
+    "mysql.y"
+  ],
+  "lvalue_keyword": [
+    "mysql.y"
+  ],
+  "manifest_opt": [
+    "vitesse.y"
+  ],
+  "mantissa": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "master_def": [
+    "mariadb.y"
+  ],
+  "master_defs": [
+    "mariadb.y"
+  ],
+  "master_file_def": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "master_option": [
+    "mysql.g4"
+  ],
+  "master_or_binary": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "master_reset_options": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "master_tls_ciphersuites_def": [
+    "mysql.g4"
+  ],
+  "match_option": [
+    "vitesse.y"
+  ],
+  "math_op": [
+    "postgres.y"
+  ],
+  "member": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "merge_insert_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "mi_check_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "mi_check_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "mi_repair_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "mi_repair_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "module": [
+    "sql92.bnf"
+  ],
+  "module_argument": [
+    "sqlite.g4"
+  ],
+  "module_name": [
+    "sqlite.g4"
+  ],
+  "multiplier": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "mysql_concatenation_expr": [
+    "mariadb.y"
+  ],
+  "n_u_m_literal": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "name": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "name_list": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "name_opt": [
+    "vitesse.y"
+  ],
+  "natural_join": [
+    "vitesse.y"
+  ],
+  "natural_join_type": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "nchar": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "nested_table_reference_list": [
+    "mariadb.y"
+  ],
+  "new_table_name": [
+    "sqlite.g4"
+  ],
+  "newline": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "no_braces": [
+    "mariadb.y"
+  ],
+  "no_braces_with_names": [
+    "mariadb.y"
+  ],
+  "no_definer": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "no_definer_tail": [
+    "mysql.y"
+  ],
+  "no_write_to_bin_log": [
+    "mysql.g4"
+  ],
+  "non_blocking": [
+    "mysql.g4"
+  ],
+  "non_reserved_keyword": [
+    "vitesse.y"
+  ],
+  "non_reserved_keyword_udt": [
+    "mariadb.y"
+  ],
+  "non_reserved_word": [
+    "postgres.y"
+  ],
+  "non_reserved_word_or__sconst": [
+    "postgres.y"
+  ],
+  "normal_join": [
+    "mariadb.y"
+  ],
+  "normal_key_opt": [
+    "mariadb.y"
+  ],
+  "normal_key_options": [
+    "mariadb.y"
+  ],
+  "normal_key_opts": [
+    "mariadb.y"
+  ],
+  "not": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "not2": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "not2_rule": [
+    "mysql.g4"
+  ],
+  "not_exists_opt": [
+    "vitesse.y"
+  ],
+  "not_rule": [
+    "mysql.g4"
+  ],
+  "note": [
+    "mysql.y"
+  ],
+  "notify_payload": [
+    "postgres.y"
+  ],
+  "notify_stmt": [
+    "postgres.y"
+  ],
+  "now": [
+    "mysql.y"
+  ],
+  "now_or_signed_literal": [
+    "mysql.y"
+  ],
+  "null_as_literal": [
+    "mysql.y"
+  ],
+  "null_literal": [
+    "mysql.g4"
+  ],
+  "null_treatment": [
+    "mysql.g4"
+  ],
+  "num_literal": [
+    "mysql.g4"
+  ],
+  "num_val": [
+    "vitesse.y"
+  ],
+  "numeric": [
+    "postgres.y"
+  ],
+  "numeric_dyncol_type": [
+    "mariadb.y"
+  ],
+  "numeric_only": [
+    "postgres.y"
+  ],
+  "numeric_only_list": [
+    "postgres.y"
+  ],
+  "numeric_type": [
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "nvarchar": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "object_privilege": [
+    "mariadb.y"
+  ],
+  "object_privilege_list": [
+    "mariadb.y"
+  ],
+  "object_type_any_name": [
+    "postgres.y"
+  ],
+  "object_type_name": [
+    "postgres.y"
+  ],
+  "object_type_name_on_any_name": [
+    "postgres.y"
+  ],
+  "occurrences": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "of__o_f_fset": [
+    "sqlite.g4"
+  ],
+  "offset_clause": [
+    "postgres.y"
+  ],
+  "olap_opt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "olap_option": [
+    "mysql.g4"
+  ],
+  "old_aggr_definition": [
+    "postgres.y"
+  ],
+  "old_aggr_elem": [
+    "postgres.y"
+  ],
+  "old_aggr_list": [
+    "postgres.y"
+  ],
+  "old_or_new_charset_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "old_or_new_charset_name_or_default": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "on_commit_option": [
+    "postgres.y"
+  ],
+  "on_dup_opt": [
+    "vitesse.y"
+  ],
+  "on_empty": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "on_empty_or_error": [
+    "mysql.g4"
+  ],
+  "on_error": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "on_expression_opt": [
+    "vitesse.y"
+  ],
+  "on_type_to": [
+    "mysql.g4"
+  ],
+  "online_option": [
+    "mysql.g4"
+  ],
+  "only_or_with_ties": [
+    "mariadb.y"
+  ],
+  "opclass_drop": [
+    "postgres.y"
+  ],
+  "opclass_drop_list": [
+    "postgres.y"
+  ],
+  "opclass_item": [
+    "postgres.y"
+  ],
+  "opclass_item_list": [
+    "postgres.y"
+  ],
+  "opclass_purpose": [
+    "postgres.y"
+  ],
+  "openb": [
+    "vitesse.y"
+  ],
+  "oper_argtypes": [
+    "postgres.y"
+  ],
+  "operator_def_arg": [
+    "postgres.y"
+  ],
+  "operator_def_elem": [
+    "postgres.y"
+  ],
+  "operator_def_list": [
+    "postgres.y"
+  ],
+  "operator_with_argtypes": [
+    "postgres.y"
+  ],
+  "operator_with_argtypes_list": [
+    "postgres.y"
+  ],
+  "opt__i_n_t_o": [
+    "mysql.y"
+  ],
+  "opt__p_r_e_c_i_s_i_o_n": [
+    "mysql.y"
+  ],
+  "opt__u_s_i_n_g_key_algorithm": [
+    "mariadb.y"
+  ],
+  "opt_account_lock_password_expire_option": [
+    "mysql.y"
+  ],
+  "opt_account_lock_password_expire_option_list": [
+    "mysql.y"
+  ],
+  "opt_account_lock_password_expire_options": [
+    "mysql.y"
+  ],
+  "opt_account_locking_and_opt_password_expiration": [
+    "mariadb.y"
+  ],
+  "opt_acl_type": [
+    "mysql.y"
+  ],
+  "opt_aggregate": [
+    "mariadb.y"
+  ],
+  "opt_alias_clause": [
+    "postgres.y"
+  ],
+  "opt_alias_clause_for_join_using": [
+    "postgres.y"
+  ],
+  "opt_all": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_all_clause": [
+    "postgres.y"
+  ],
+  "opt_alter_command_list": [
+    "mysql.y"
+  ],
+  "opt_alter_logfile_group_options": [
+    "mysql.y"
+  ],
+  "opt_alter_table_actions": [
+    "mysql.y"
+  ],
+  "opt_alter_tablespace_options": [
+    "mysql.y"
+  ],
+  "opt_analyze": [
+    "postgres.y"
+  ],
+  "opt_and": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_array_bounds": [
+    "postgres.y"
+  ],
+  "opt_array_cast": [
+    "mysql.y"
+  ],
+  "opt_as": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_asc_desc": [
+    "postgres.y"
+  ],
+  "opt_asrow_attribute": [
+    "mariadb.y"
+  ],
+  "opt_asrow_attribute_list": [
+    "mariadb.y"
+  ],
+  "opt_asymmetric": [
+    "postgres.y"
+  ],
+  "opt_auth_str": [
+    "mariadb.y"
+  ],
+  "opt_bin_mod": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_binary": [
+    "mariadb.y",
+    "postgres.y"
+  ],
+  "opt_binary_and_compression": [
+    "mariadb.y"
+  ],
+  "opt_binlog_in": [
+    "mysql.y"
+  ],
+  "opt_boolean_or_string": [
+    "postgres.y"
+  ],
+  "opt_by": [
+    "mariadb.y",
+    "postgres.y"
+  ],
+  "opt_c_include": [
+    "postgres.y"
+  ],
+  "opt_cache_key_list": [
+    "mysql.y"
+  ],
+  "opt_chain": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_channel": [
+    "mysql.y"
+  ],
+  "opt_charset_with_opt_binary": [
+    "mysql.y"
+  ],
+  "opt_check_constraint": [
+    "mariadb.y"
+  ],
+  "opt_check_option": [
+    "postgres.y"
+  ],
+  "opt_checksum_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_class": [
+    "postgres.y"
+  ],
+  "opt_col_def_list": [
+    "postgres.y"
+  ],
+  "opt_collate": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_collate_clause": [
+    "postgres.y"
+  ],
+  "opt_column": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_column_attribute_list": [
+    "mysql.y"
+  ],
+  "opt_column_compression": [
+    "postgres.y"
+  ],
+  "opt_column_list": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_comma": [
+    "mysql.y"
+  ],
+  "opt_component": [
+    "mysql.y"
+  ],
+  "opt_compressed": [
+    "mariadb.y"
+  ],
+  "opt_compression_method": [
+    "mariadb.y"
+  ],
+  "opt_concurrently": [
+    "postgres.y"
+  ],
+  "opt_conf_expr": [
+    "postgres.y"
+  ],
+  "opt_connection": [
+    "mariadb.y"
+  ],
+  "opt_cons_table_space": [
+    "postgres.y"
+  ],
+  "opt_constr_from_table": [
+    "postgres.y"
+  ],
+  "opt_constraint": [
+    "mariadb.y"
+  ],
+  "opt_constraint_enforcement": [
+    "mysql.y"
+  ],
+  "opt_constraint_name": [
+    "mysql.y"
+  ],
+  "opt_constraint_no_id": [
+    "mariadb.y"
+  ],
+  "opt_convert_xid": [
+    "mysql.y"
+  ],
+  "opt_create_database_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_create_package_chistics": [
+    "mariadb.y"
+  ],
+  "opt_create_package_chistics_init": [
+    "mariadb.y"
+  ],
+  "opt_create_partitioning": [
+    "mariadb.y"
+  ],
+  "opt_create_partitioning_etc": [
+    "mysql.y"
+  ],
+  "opt_create_select": [
+    "mariadb.y"
+  ],
+  "opt_create_table_options": [
+    "mariadb.y"
+  ],
+  "opt_create_table_options_etc": [
+    "mysql.y"
+  ],
+  "opt_createfunc_opt_list": [
+    "postgres.y"
+  ],
+  "opt_cycle": [
+    "mariadb.y"
+  ],
+  "opt_cycle_clause": [
+    "postgres.y"
+  ],
+  "opt_datadir_ssl": [
+    "mysql.y"
+  ],
+  "opt_db": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_default": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_default_auth_option": [
+    "mysql.y"
+  ],
+  "opt_default_time_precision": [
+    "mariadb.y"
+  ],
+  "opt_definition": [
+    "postgres.y"
+  ],
+  "opt_delete_gtid_domain": [
+    "mariadb.y"
+  ],
+  "opt_delete_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_delete_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_delete_system_time": [
+    "mariadb.y"
+  ],
+  "opt_derived_column_list": [
+    "mysql.y"
+  ],
+  "opt_describe_column": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_discard_old_password": [
+    "mysql.y"
+  ],
+  "opt_distinct": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_distinct_clause": [
+    "postgres.y"
+  ],
+  "opt_drop_behavior": [
+    "postgres.y"
+  ],
+  "opt_drop_ts_options": [
+    "mysql.y"
+  ],
+  "opt_duplicate": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_duplicate_as_qe": [
+    "mysql.y"
+  ],
+  "opt_dyncol_type": [
+    "mariadb.y"
+  ],
+  "opt_else": [
+    "mysql.y"
+  ],
+  "opt_enable": [
+    "mariadb.y"
+  ],
+  "opt_encoding": [
+    "postgres.y"
+  ],
+  "opt_end_of_input": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_enum_val_list": [
+    "postgres.y"
+  ],
+  "opt_equal": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_ev_comment": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ev_on_completion": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ev_rename_to": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ev_sql_stmt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ev_status": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_except_role_list": [
+    "mysql.y"
+  ],
+  "opt_exception_clause": [
+    "mariadb.y"
+  ],
+  "opt_existing_window_name": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_explain_analyze_type": [
+    "mysql.y"
+  ],
+  "opt_explain_format_type": [
+    "mysql.y"
+  ],
+  "opt_expr": [
+    "mysql.y"
+  ],
+  "opt_expr_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_extended": [
+    "mysql.y"
+  ],
+  "opt_extended_describe": [
+    "mariadb.y"
+  ],
+  "opt_fdw_options": [
+    "postgres.y"
+  ],
+  "opt_field_length": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_field_or_var_spec": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_field_term": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_fields": [
+    "mariadb.y"
+  ],
+  "opt_filter_db_list": [
+    "mysql.y"
+  ],
+  "opt_filter_db_pair_list": [
+    "mysql.y"
+  ],
+  "opt_filter_string_list": [
+    "mysql.y"
+  ],
+  "opt_filter_table_list": [
+    "mysql.y"
+  ],
+  "opt_float": [
+    "postgres.y"
+  ],
+  "opt_flush_lock": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_for_locking_clause": [
+    "postgres.y"
+  ],
+  "opt_for_portion_of_time_clause": [
+    "mariadb.y"
+  ],
+  "opt_for_query": [
+    "mysql.y"
+  ],
+  "opt_for_system_time_clause": [
+    "mariadb.y"
+  ],
+  "opt_force": [
+    "mysql.y"
+  ],
+  "opt_foreign_server_version": [
+    "postgres.y"
+  ],
+  "opt_format_json": [
+    "mariadb.y"
+  ],
+  "opt_format_xid": [
+    "mariadb.y"
+  ],
+  "opt_frame_clause": [
+    "postgres.y"
+  ],
+  "opt_freeze": [
+    "postgres.y"
+  ],
+  "opt_from_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_from_first_last": [
+    "mysql.y"
+  ],
+  "opt_from_in": [
+    "postgres.y"
+  ],
+  "opt_full": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_fulltext_index_options": [
+    "mysql.y"
+  ],
+  "opt_gconcat_separator": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_generated_always": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_glimit_clause": [
+    "mariadb.y"
+  ],
+  "opt_global_limit_clause": [
+    "mariadb.y"
+  ],
+  "opt_gorder_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_grant_admin_option": [
+    "postgres.y"
+  ],
+  "opt_grant_as": [
+    "mysql.y"
+  ],
+  "opt_grant_grant_option": [
+    "postgres.y"
+  ],
+  "opt_grant_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_grant_options": [
+    "mariadb.y"
+  ],
+  "opt_granted_by": [
+    "postgres.y"
+  ],
+  "opt_group_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_group_replication_start_options": [
+    "mysql.y"
+  ],
+  "opt_having_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_histogram": [
+    "mysql.y"
+  ],
+  "opt_history_unit": [
+    "mariadb.y"
+  ],
+  "opt_hold": [
+    "postgres.y"
+  ],
+  "opt_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_if_exists": [
+    "mariadb.y",
+    "postgres.y"
+  ],
+  "opt_if_exists_ident": [
+    "mysql.y"
+  ],
+  "opt_if_exists_table_element": [
+    "mariadb.y"
+  ],
+  "opt_if_not_exists": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_if_not_exists_table_element": [
+    "mariadb.y"
+  ],
+  "opt_ignore": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ignore_leaves": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ignore_lines": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_in_database": [
+    "postgres.y"
+  ],
+  "opt_include": [
+    "postgres.y"
+  ],
+  "opt_index_hints_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_index_lock_algorithm": [
+    "mariadb.y"
+  ],
+  "opt_index_lock_and_algorithm": [
+    "mysql.y"
+  ],
+  "opt_index_name": [
+    "postgres.y"
+  ],
+  "opt_index_name_and_type": [
+    "mysql.y"
+  ],
+  "opt_index_options": [
+    "mysql.y"
+  ],
+  "opt_index_type_clause": [
+    "mysql.y"
+  ],
+  "opt_indirection": [
+    "postgres.y"
+  ],
+  "opt_inherit": [
+    "postgres.y"
+  ],
+  "opt_inline_handler": [
+    "postgres.y"
+  ],
+  "opt_inner": [
+    "mysql.y"
+  ],
+  "opt_insert_update": [
+    "mariadb.y"
+  ],
+  "opt_insert_update_list": [
+    "mysql.y"
+  ],
+  "opt_instead": [
+    "postgres.y"
+  ],
+  "opt_interval": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_into": [
+    "mariadb.y"
+  ],
+  "opt_isolation_level": [
+    "mysql.y"
+  ],
+  "opt_join_or_resume": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_key_algo": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_key_algorithm_clause": [
+    "mariadb.y"
+  ],
+  "opt_key_definition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_key_or_index": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_key_usage_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_lead_lag_info": [
+    "mysql.y"
+  ],
+  "opt_limit_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_line_term": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_linear": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ll_default": [
+    "mysql.y"
+  ],
+  "opt_load_data_charset": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_load_data_set_spec": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_local": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_lock": [
+    "postgres.y"
+  ],
+  "opt_lock_wait_timeout": [
+    "mariadb.y"
+  ],
+  "opt_lock_wait_timeout_new": [
+    "mariadb.y"
+  ],
+  "opt_locked_row_action": [
+    "mysql.y"
+  ],
+  "opt_logfile_group_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_logfile_group_options": [
+    "mysql.y"
+  ],
+  "opt_low_priority": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_match_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_materialized": [
+    "postgres.y"
+  ],
+  "opt_mi_check_type": [
+    "mariadb.y"
+  ],
+  "opt_mi_check_types": [
+    "mysql.y"
+  ],
+  "opt_mi_repair_type": [
+    "mariadb.y"
+  ],
+  "opt_mi_repair_types": [
+    "mysql.y"
+  ],
+  "opt_migrate": [
+    "mariadb.y"
+  ],
+  "opt_name_list": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_natural_language_mode": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_no": [
+    "postgres.y"
+  ],
+  "opt_no_inherit": [
+    "postgres.y"
+  ],
+  "opt_no_log": [
+    "postgres.y"
+  ],
+  "opt_no_write_to_binlog": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_not": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_not_atomic": [
+    "mariadb.y"
+  ],
+  "opt_nowait": [
+    "postgres.y"
+  ],
+  "opt_nowait_or_skip": [
+    "postgres.y"
+  ],
+  "opt_null_treatment": [
+    "mysql.y"
+  ],
+  "opt_nulls_order": [
+    "postgres.y"
+  ],
+  "opt_num_buckets": [
+    "mysql.y"
+  ],
+  "opt_num_parts": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_num_subparts": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_of": [
+    "mysql.y"
+  ],
+  "opt_on_conflict": [
+    "postgres.y"
+  ],
+  "opt_on_empty_or_error": [
+    "mysql.y"
+  ],
+  "opt_on_empty_or_error_json_table": [
+    "mysql.y"
+  ],
+  "opt_on_update_delete": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_one_phase": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_opfamily": [
+    "postgres.y"
+  ],
+  "opt_or_replace": [
+    "postgres.y"
+  ],
+  "opt_order_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_order_limit_lock": [
+    "mariadb.y"
+  ],
+  "opt_ordering_direction": [
+    "mysql.y"
+  ],
+  "opt_ordinality": [
+    "postgres.y"
+  ],
+  "opt_outer": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_package_routine_end_name": [
+    "mariadb.y"
+  ],
+  "opt_package_specification_element_list": [
+    "mariadb.y"
+  ],
+  "opt_paren_expr_list": [
+    "mysql.y"
+  ],
+  "opt_parenthesized_cursor_actual_parameters": [
+    "mariadb.y"
+  ],
+  "opt_parenthesized_cursor_formal_parameters": [
+    "mariadb.y"
+  ],
+  "opt_parenthesized_seq_opt_list": [
+    "postgres.y"
+  ],
+  "opt_part_defs": [
+    "mysql.y"
+  ],
+  "opt_part_option": [
+    "mariadb.y"
+  ],
+  "opt_part_option_list": [
+    "mariadb.y"
+  ],
+  "opt_part_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_part_values": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_partition_clause": [
+    "mysql.y",
+    "postgres.y",
+    "vitesse.y"
+  ],
+  "opt_partition_spec": [
+    "postgres.y"
+  ],
+  "opt_partitioning": [
+    "mariadb.y"
+  ],
+  "opt_password_expire_option": [
+    "mariadb.y"
+  ],
+  "opt_password_option": [
+    "mysql.y"
+  ],
+  "opt_persistent_stat_clause": [
+    "mariadb.y"
+  ],
+  "opt_place": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_plugin_dir_option": [
+    "mysql.y"
+  ],
+  "opt_plus": [
+    "mariadb.y"
+  ],
+  "opt_precision": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_primary": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_privileges": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_procedural": [
+    "postgres.y"
+  ],
+  "opt_procedure_or_into": [
+    "mariadb.y"
+  ],
+  "opt_profile_args": [
+    "mariadb.y"
+  ],
+  "opt_profile_defs": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_program": [
+    "postgres.y"
+  ],
+  "opt_provider": [
+    "postgres.y"
+  ],
+  "opt_publication_for_tables": [
+    "postgres.y"
+  ],
+  "opt_query_expansion": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_query_expression_tail": [
+    "mariadb.y"
+  ],
+  "opt_recheck": [
+    "postgres.y"
+  ],
+  "opt_recursive": [
+    "mariadb.y"
+  ],
+  "opt_ref_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_references": [
+    "mysql.y"
+  ],
+  "opt_release": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_reloptions": [
+    "postgres.y"
+  ],
+  "opt_repeatable_clause": [
+    "postgres.y"
+  ],
+  "opt_replace_password": [
+    "mysql.y"
+  ],
+  "opt_replica_reset_options": [
+    "mysql.y"
+  ],
+  "opt_replica_thread_option_list": [
+    "mysql.y"
+  ],
+  "opt_replica_until": [
+    "mysql.y"
+  ],
+  "opt_require_clause": [
+    "mariadb.y"
+  ],
+  "opt_resource_group_enable_disable": [
+    "mysql.y"
+  ],
+  "opt_resource_group_priority": [
+    "mysql.y"
+  ],
+  "opt_resource_group_vcpu_list": [
+    "mysql.y"
+  ],
+  "opt_resource_options": [
+    "mariadb.y"
+  ],
+  "opt_restart_seqs": [
+    "postgres.y"
+  ],
+  "opt_restrict": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_retain_current_password": [
+    "mysql.y"
+  ],
+  "opt_returning": [
+    "mariadb.y"
+  ],
+  "opt_returning_type": [
+    "mysql.y"
+  ],
+  "opt_role_list": [
+    "postgres.y"
+  ],
+  "opt_routine_body": [
+    "postgres.y"
+  ],
+  "opt_savepoint": [
+    "mysql.y"
+  ],
+  "opt_schema_elt_list": [
+    "postgres.y"
+  ],
+  "opt_schema_name": [
+    "postgres.y"
+  ],
+  "opt_search_clause": [
+    "postgres.y"
+  ],
+  "opt_select_limit": [
+    "postgres.y"
+  ],
+  "opt_select_lock_type": [
+    "mariadb.y"
+  ],
+  "opt_seq_opt_list": [
+    "postgres.y"
+  ],
+  "opt_sequence": [
+    "mariadb.y"
+  ],
+  "opt_serial_attribute": [
+    "mariadb.y"
+  ],
+  "opt_serial_attribute_list": [
+    "mariadb.y"
+  ],
+  "opt_set_data": [
+    "postgres.y"
+  ],
+  "opt_set_signal_information": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_set_var_ident_type": [
+    "mysql.y"
+  ],
+  "opt_show_cmd_type": [
+    "mysql.y"
+  ],
+  "opt_signal_value": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_simple_limit": [
+    "mysql.y"
+  ],
+  "opt_slice_bound": [
+    "postgres.y"
+  ],
+  "opt_sort_clause": [
+    "postgres.y"
+  ],
+  "opt_sp_cparam_list": [
+    "mariadb.y"
+  ],
+  "opt_sp_cparams": [
+    "mariadb.y"
+  ],
+  "opt_sp_decl_body_list": [
+    "mariadb.y"
+  ],
+  "opt_sp_decl_handler_list": [
+    "mariadb.y"
+  ],
+  "opt_sp_for_loop_direction": [
+    "mariadb.y"
+  ],
+  "opt_sp_name": [
+    "mariadb.y"
+  ],
+  "opt_sp_parenthesized_fdparam_list": [
+    "mariadb.y"
+  ],
+  "opt_sp_parenthesized_pdparam_list": [
+    "mariadb.y"
+  ],
+  "opt_spatial_index_options": [
+    "mysql.y"
+  ],
+  "opt_ssl": [
+    "mysql.y"
+  ],
+  "opt_start_transaction_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_storage": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_stored_attribute": [
+    "mysql.y"
+  ],
+  "opt_sub_part": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_sub_partition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_suspend": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_table": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_table_alias": [
+    "mysql.y"
+  ],
+  "opt_table_alias_clause": [
+    "mariadb.y"
+  ],
+  "opt_table_element_list": [
+    "postgres.y"
+  ],
+  "opt_table_func_element_list": [
+    "postgres.y"
+  ],
+  "opt_table_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_table_space": [
+    "postgres.y"
+  ],
+  "opt_table_space_owner": [
+    "postgres.y"
+  ],
+  "opt_table_sym": [
+    "mariadb.y"
+  ],
+  "opt_tablespace_options": [
+    "mysql.y"
+  ],
+  "opt_target_list": [
+    "postgres.y"
+  ],
+  "opt_temp": [
+    "postgres.y"
+  ],
+  "opt_temp_table_name": [
+    "postgres.y"
+  ],
+  "opt_temporary": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_time_precision": [
+    "mariadb.y"
+  ],
+  "opt_timezone": [
+    "postgres.y"
+  ],
+  "opt_to": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_transaction": [
+    "postgres.y"
+  ],
+  "opt_transaction_access_mode": [
+    "mysql.y"
+  ],
+  "opt_transaction_chain": [
+    "postgres.y"
+  ],
+  "opt_truncate_table_storage_clause": [
+    "mariadb.y"
+  ],
+  "opt_trusted": [
+    "postgres.y"
+  ],
+  "opt_ts_autoextend_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_comment": [
+    "mariadb.y"
+  ],
+  "opt_ts_datafile_name": [
+    "mysql.y"
+  ],
+  "opt_ts_engine": [
+    "mariadb.y"
+  ],
+  "opt_ts_extent_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_initial_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_max_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_nodegroup": [
+    "mariadb.y"
+  ],
+  "opt_ts_redo_buffer_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_undo_buffer_size": [
+    "mariadb.y"
+  ],
+  "opt_ts_wait": [
+    "mariadb.y"
+  ],
+  "opt_type": [
+    "postgres.y"
+  ],
+  "opt_type_modifiers": [
+    "postgres.y"
+  ],
+  "opt_typed_table_element_list": [
+    "postgres.y"
+  ],
+  "opt_udf_expr_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_undo_tablespace_options": [
+    "mysql.y"
+  ],
+  "opt_unique": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_use_partition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_user_attribute": [
+    "mysql.y"
+  ],
+  "opt_user_option": [
+    "mysql.y"
+  ],
+  "opt_using": [
+    "postgres.y"
+  ],
+  "opt_vacuum_relation_list": [
+    "postgres.y"
+  ],
+  "opt_validator": [
+    "postgres.y"
+  ],
+  "opt_value": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_values": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_values_reference": [
+    "mysql.y"
+  ],
+  "opt_values_with_names": [
+    "mariadb.y"
+  ],
+  "opt_var_ident_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_var_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_varying": [
+    "postgres.y"
+  ],
+  "opt_verbose": [
+    "postgres.y"
+  ],
+  "opt_versioning_interval_start": [
+    "mariadb.y"
+  ],
+  "opt_versioning_option": [
+    "mariadb.y"
+  ],
+  "opt_versioning_rotation": [
+    "mariadb.y"
+  ],
+  "opt_view_check_type": [
+    "mariadb.y"
+  ],
+  "opt_view_repair_type": [
+    "mariadb.y"
+  ],
+  "opt_view_suid": [
+    "mariadb.y"
+  ],
+  "opt_where_clause": [
+    "mariadb.y",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_wild": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_wild_or_where": [
+    "mysql.y"
+  ],
+  "opt_window_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_window_exclusion_clause": [
+    "postgres.y"
+  ],
+  "opt_window_frame_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_window_frame_exclusion": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_window_order_by_clause": [
+    "mysql.y"
+  ],
+  "opt_window_order_clause": [
+    "mariadb.y"
+  ],
+  "opt_window_partition_clause": [
+    "mariadb.y"
+  ],
+  "opt_window_ref": [
+    "mariadb.y"
+  ],
+  "opt_windowing_clause": [
+    "mysql.y"
+  ],
+  "opt_with": [
+    "mariadb.y",
+    "postgres.y",
+    "postgres.y"
+  ],
+  "opt_with_admin": [
+    "mariadb.y"
+  ],
+  "opt_with_admin_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_with_clause": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "opt_with_column_list": [
+    "mariadb.y"
+  ],
+  "opt_with_data": [
+    "postgres.y"
+  ],
+  "opt_with_roles": [
+    "mysql.y"
+  ],
+  "opt_with_validation": [
+    "mysql.y"
+  ],
+  "opt_without_overlaps": [
+    "mariadb.y"
+  ],
+  "opt_work": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "opt_ws_levels": [
+    "mariadb.y"
+  ],
+  "opt_xml_root_standalone": [
+    "postgres.y"
+  ],
+  "opt_xml_rows_identified_by": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "optimize": [
+    "mariadb.y"
+  ],
+  "optimize_table_stmt": [
+    "mysql.y"
+  ],
+  "option_autoextend_size": [
+    "mysql.y"
+  ],
+  "option_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "option_value": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "option_value_following_option_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "option_value_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "option_value_list_continued": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "option_value_no_option_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "optional_braces": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "optional_connection_name": [
+    "mariadb.y"
+  ],
+  "optional_flush_tables_arguments": [
+    "mariadb.y"
+  ],
+  "optionally_opt": [
+    "vitesse.y"
+  ],
+  "optionally_qualified_column_ident": [
+    "mariadb.y"
+  ],
+  "or": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "order": [
+    "vitesse.y"
+  ],
+  "order_by_expr": [
+    "sqlite.g4"
+  ],
+  "order_by_expr_asc_desc": [
+    "sqlite.g4"
+  ],
+  "order_by_opt": [
+    "vitesse.y"
+  ],
+  "order_by_single_element_list": [
+    "mariadb.y"
+  ],
+  "order_by_stmt": [
+    "sqlite.g4"
+  ],
+  "order_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "order_dir": [
+    "mariadb.y"
+  ],
+  "order_expr": [
+    "mysql.y"
+  ],
+  "order_expression": [
+    "mysql.g4"
+  ],
+  "order_ident": [
+    "mariadb.y"
+  ],
+  "order_limit_lock": [
+    "mariadb.y"
+  ],
+  "order_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "order_or_limit": [
+    "mariadb.y"
+  ],
+  "ordering_direction": [
+    "mysql.y"
+  ],
+  "ordering_term": [
+    "sqlite.g4"
+  ],
+  "other_administrative_statement": [
+    "mysql.g4"
+  ],
+  "other_statement": [
+    "vitesse.y"
+  ],
+  "outer_join": [
+    "vitesse.y"
+  ],
+  "outer_join_type": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "over_clause": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "overlay_list": [
+    "postgres.y"
+  ],
+  "override_kind": [
+    "postgres.y"
+  ],
+  "overwrite_opt": [
+    "vitesse.y"
+  ],
+  "p_l_assign_stmt": [
+    "postgres.y"
+  ],
+  "p_lpg_s_q_l__expr": [
+    "postgres.y"
+  ],
+  "package_implementation_declare_section": [
+    "mariadb.y"
+  ],
+  "package_implementation_declare_section_list1": [
+    "mariadb.y"
+  ],
+  "package_implementation_declare_section_list2": [
+    "mariadb.y"
+  ],
+  "package_implementation_executable_section": [
+    "mariadb.y"
+  ],
+  "package_implementation_function_body": [
+    "mariadb.y"
+  ],
+  "package_implementation_item_declaration": [
+    "mariadb.y"
+  ],
+  "package_implementation_procedure_body": [
+    "mariadb.y"
+  ],
+  "package_implementation_routine_definition": [
+    "mariadb.y"
+  ],
+  "package_routine_lex": [
+    "mariadb.y"
+  ],
+  "package_specification_element": [
+    "mariadb.y"
+  ],
+  "package_specification_element_list": [
+    "mariadb.y"
+  ],
+  "package_specification_function": [
+    "mariadb.y"
+  ],
+  "package_specification_procedure": [
+    "mariadb.y"
+  ],
+  "packages": [
+    "sql99.bnf"
+  ],
+  "param_marker": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "param_name": [
+    "postgres.y"
+  ],
+  "param_or_var": [
+    "mysql.y"
+  ],
+  "parameter_name": [
+    "mysql.g4"
+  ],
+  "parentheses": [
+    "mysql.g4"
+  ],
+  "parenthesized_expr": [
+    "mariadb.y"
+  ],
+  "parse": [
+    "sqlite.g4"
+  ],
+  "parse_toplevel": [
+    "postgres.y"
+  ],
+  "parse_vcol_expr": [
+    "mariadb.y"
+  ],
+  "part_column_list": [
+    "mariadb.y"
+  ],
+  "part_def_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_definition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_defs": [
+    "mariadb.y"
+  ],
+  "part_elem": [
+    "postgres.y"
+  ],
+  "part_field_item": [
+    "mariadb.y"
+  ],
+  "part_field_item_list": [
+    "mariadb.y"
+  ],
+  "part_field_list": [
+    "mariadb.y"
+  ],
+  "part_func": [
+    "mariadb.y"
+  ],
+  "part_func_expr": [
+    "mariadb.y"
+  ],
+  "part_func_max": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_name": [
+    "mariadb.y"
+  ],
+  "part_option": [
+    "mysql.y"
+  ],
+  "part_option_list": [
+    "mysql.y"
+  ],
+  "part_params": [
+    "postgres.y"
+  ],
+  "part_type_def": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_value_expr_item": [
+    "mariadb.y"
+  ],
+  "part_value_item": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_value_item_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_value_item_list_paren": [
+    "mysql.y"
+  ],
+  "part_value_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "part_values_in": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "partition": [
+    "mariadb.y"
+  ],
+  "partition_bound_spec": [
+    "postgres.y"
+  ],
+  "partition_by": [
+    "sqlite.g4"
+  ],
+  "partition_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "partition_cmd": [
+    "postgres.y"
+  ],
+  "partition_definition": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "partition_definitions": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "partition_delete": [
+    "mysql.g4"
+  ],
+  "partition_entry": [
+    "mariadb.y"
+  ],
+  "partition_key_algorithm": [
+    "mysql.g4"
+  ],
+  "partition_list": [
+    "vitesse.y"
+  ],
+  "partition_operation": [
+    "vitesse.y"
+  ],
+  "partition_option": [
+    "mysql.g4"
+  ],
+  "partition_spec": [
+    "postgres.y"
+  ],
+  "partition_type_def": [
+    "mysql.g4"
+  ],
+  "partition_value_item": [
+    "mysql.g4"
+  ],
+  "partition_value_item_list_paren": [
+    "mysql.g4"
+  ],
+  "partition_values_in": [
+    "mysql.g4"
+  ],
+  "partitioning": [
+    "mariadb.y"
+  ],
+  "parts": [
+    "sql99.bnf"
+  ],
+  "pattern": [
+    "sql92.bnf"
+  ],
+  "percent": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "percentile_function": [
+    "mariadb.y"
+  ],
+  "period": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "period_for_application_time": [
+    "mariadb.y"
+  ],
+  "period_for_system_time": [
+    "mariadb.y"
+  ],
+  "persistent_column_stat_spec": [
+    "mariadb.y"
+  ],
+  "persistent_index_stat_spec": [
+    "mariadb.y"
+  ],
+  "persistent_stat_spec": [
+    "mariadb.y"
+  ],
+  "place": [
+    "mysql.g4"
+  ],
+  "plassign_equals": [
+    "postgres.y"
+  ],
+  "plassign_target": [
+    "postgres.y"
+  ],
+  "plsql_cursor_attr": [
+    "mariadb.y"
+  ],
+  "plugin_ref": [
+    "mysql.g4"
+  ],
+  "pop_sp_loop_label": [
+    "mariadb.y"
+  ],
+  "position_list": [
+    "postgres.y"
+  ],
+  "pragma_name": [
+    "sqlite.g4"
+  ],
+  "pragma_stmt": [
+    "sqlite.g4"
+  ],
+  "pragma_value": [
+    "sqlite.g4"
+  ],
+  "precision": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "predicate": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "predicate_operations": [
+    "mysql.g4"
+  ],
+  "preload": [
+    "mariadb.y"
+  ],
+  "preload_keys": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "preload_keys_parts": [
+    "mariadb.y"
+  ],
+  "preload_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "preload_list_or_parts": [
+    "mariadb.y"
+  ],
+  "preload_stmt": [
+    "mysql.y"
+  ],
+  "preload_tail": [
+    "mysql.g4"
+  ],
+  "prep_type_clause": [
+    "postgres.y"
+  ],
+  "preparable_stmt": [
+    "postgres.y"
+  ],
+  "prepare": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "prepare_src": [
+    "mysql.y"
+  ],
+  "prepare_stmt": [
+    "postgres.y"
+  ],
+  "prepared_statement": [
+    "mysql.g4"
+  ],
+  "primary_expr": [
+    "mariadb.y"
+  ],
+  "privilege": [
+    "postgres.y"
+  ],
+  "privilege_check_def": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "privilege_list": [
+    "postgres.y"
+  ],
+  "privilege_target": [
+    "postgres.y"
+  ],
+  "privileges": [
+    "postgres.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "procedure": [
+    "sql92.bnf"
+  ],
+  "procedure_analyse_clause": [
+    "mysql.g4"
+  ],
+  "procedure_clause": [
+    "mariadb.y"
+  ],
+  "procedure_item": [
+    "mariadb.y"
+  ],
+  "procedure_list": [
+    "mariadb.y"
+  ],
+  "procedure_list2": [
+    "mariadb.y"
+  ],
+  "procedure_name": [
+    "mysql.g4"
+  ],
+  "procedure_parameter": [
+    "mysql.g4"
+  ],
+  "procedure_ref": [
+    "mysql.g4"
+  ],
+  "profile_def": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "profile_defs": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "profile_type": [
+    "mysql.g4"
+  ],
+  "publication_for_tables": [
+    "postgres.y"
+  ],
+  "pure_identifier": [
+    "mysql.g4"
+  ],
+  "purge": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "purge_option": [
+    "mysql.y"
+  ],
+  "purge_options": [
+    "mysql.y"
+  ],
+  "qual__op": [
+    "postgres.y"
+  ],
+  "qual_all__op": [
+    "postgres.y"
+  ],
+  "qualified_field_type": [
+    "mariadb.y"
+  ],
+  "qualified_identifier": [
+    "mysql.g4"
+  ],
+  "qualified_name": [
+    "postgres.y"
+  ],
+  "qualified_name_list": [
+    "postgres.y"
+  ],
+  "qualified_table_name": [
+    "sqlite.g4"
+  ],
+  "qualifier": [
+    "sql92.bnf"
+  ],
+  "quantifier": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "query": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "query_expression": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_expression_body": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_expression_body_ext": [
+    "mariadb.y"
+  ],
+  "query_expression_body_ext_parens": [
+    "mariadb.y"
+  ],
+  "query_expression_no_with_clause": [
+    "mariadb.y"
+  ],
+  "query_expression_option": [
+    "mariadb.y"
+  ],
+  "query_expression_or_parens": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_expression_parens": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_expression_tail": [
+    "mariadb.y"
+  ],
+  "query_primary": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_simple": [
+    "mariadb.y"
+  ],
+  "query_spec_option": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_specification": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "query_specification_start": [
+    "mariadb.y"
+  ],
+  "quote": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "r_e_t_u_r_n__a_l_l_m_o_d_e_s__s_y_m": [
+    "mariadb.y"
+  ],
+  "raise_function": [
+    "sqlite.g4"
+  ],
+  "raise_stmt_oracle": [
+    "mariadb.y"
+  ],
+  "real_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "real_ulong_num": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "real_ulong_number": [
+    "mysql.g4"
+  ],
+  "real_ulonglong_num": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "real_ulonglong_number": [
+    "mysql.g4"
+  ],
+  "reassign_owned_stmt": [
+    "postgres.y"
+  ],
+  "recursive__select": [
+    "sqlite.g4"
+  ],
+  "recursive_cte": [
+    "sqlite.g4"
+  ],
+  "ref_list": [
+    "mariadb.y"
+  ],
+  "reference_definition": [
+    "vitesse.y"
+  ],
+  "reference_definition_opt": [
+    "vitesse.y"
+  ],
+  "reference_list": [
+    "mysql.y"
+  ],
+  "references": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "refresh_mat_view_stmt": [
+    "postgres.y"
+  ],
+  "reindex_stmt": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "reindex_target_multitable": [
+    "postgres.y"
+  ],
+  "reindex_target_type": [
+    "postgres.y"
+  ],
+  "relation_expr": [
+    "postgres.y"
+  ],
+  "relation_expr_list": [
+    "postgres.y"
+  ],
+  "relation_expr_opt_alias": [
+    "postgres.y"
+  ],
+  "release": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "release_statement": [
+    "vitesse.y"
+  ],
+  "release_stmt": [
+    "sqlite.g4"
+  ],
+  "reloption_elem": [
+    "postgres.y"
+  ],
+  "reloption_list": [
+    "postgres.y"
+  ],
+  "reloptions": [
+    "postgres.y"
+  ],
+  "remember_end": [
+    "mariadb.y"
+  ],
+  "remember_end_opt": [
+    "mariadb.y"
+  ],
+  "remember_lex": [
+    "mariadb.y"
+  ],
+  "remember_name": [
+    "mariadb.y"
+  ],
+  "remember_tok_start": [
+    "mariadb.y"
+  ],
+  "remove_aggr_stmt": [
+    "postgres.y"
+  ],
+  "remove_func_stmt": [
+    "postgres.y"
+  ],
+  "remove_oper_stmt": [
+    "postgres.y"
+  ],
+  "remove_partitioning": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "rename": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "rename_list": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "rename_pair": [
+    "mysql.g4"
+  ],
+  "rename_statement": [
+    "vitesse.y"
+  ],
+  "rename_stmt": [
+    "postgres.y"
+  ],
+  "rename_table_statement": [
+    "mysql.g4"
+  ],
+  "rename_user": [
+    "mysql.g4"
+  ],
+  "reorg_partition_rule": [
+    "mariadb.y"
+  ],
+  "reorg_parts_rule": [
+    "mariadb.y"
+  ],
+  "repair": [
+    "mariadb.y"
+  ],
+  "repair_table_or_view": [
+    "mariadb.y"
+  ],
+  "repair_table_stmt": [
+    "mysql.y"
+  ],
+  "repair_type": [
+    "mysql.g4"
+  ],
+  "repeat_body": [
+    "mariadb.y"
+  ],
+  "repeat_until_block": [
+    "mysql.g4"
+  ],
+  "replace": [
+    "mariadb.y"
+  ],
+  "replace_lock_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "replace_opt": [
+    "vitesse.y"
+  ],
+  "replace_password": [
+    "mysql.g4"
+  ],
+  "replace_statement": [
+    "mysql.g4"
+  ],
+  "replace_stmt": [
+    "mysql.y"
+  ],
+  "replica": [
+    "mysql.y"
+  ],
+  "replica_identity": [
+    "postgres.y"
+  ],
+  "replica_thread_option": [
+    "mysql.y"
+  ],
+  "replica_thread_option_list": [
+    "mysql.y"
+  ],
+  "replica_until": [
+    "mysql.y"
+  ],
+  "replication_load": [
+    "mysql.g4"
+  ],
+  "replication_statement": [
+    "mysql.g4"
+  ],
+  "representation": [
+    "sql2003.bnf",
+    "sql99.bnf"
+  ],
+  "require_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "require_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "require_list_element": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "reserved_keyword": [
+    "postgres.y",
+    "vitesse.y"
+  ],
+  "reserved_keyword_udt": [
+    "mariadb.y"
+  ],
+  "reserved_keyword_udt_not_param_type": [
+    "mariadb.y"
+  ],
+  "reserved_keyword_udt_param_type": [
+    "mariadb.y"
+  ],
+  "reserved_sql_id": [
+    "vitesse.y"
+  ],
+  "reserved_table_id": [
+    "vitesse.y"
+  ],
+  "reset": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "reset_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "reset_options": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "reset_rest": [
+    "postgres.y"
+  ],
+  "resignal_statement": [
+    "mysql.g4"
+  ],
+  "resignal_stmt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "resource_group_enable_disable": [
+    "mysql.g4"
+  ],
+  "resource_group_management": [
+    "mysql.g4"
+  ],
+  "resource_group_priority": [
+    "mysql.g4"
+  ],
+  "resource_group_ref": [
+    "mysql.g4"
+  ],
+  "resource_group_types": [
+    "mysql.y"
+  ],
+  "resource_group_vcpu_list": [
+    "mysql.g4"
+  ],
+  "resource_option": [
+    "mariadb.y"
+  ],
+  "resource_option_list": [
+    "mariadb.y"
+  ],
+  "restart_server": [
+    "mysql.g4"
+  ],
+  "restart_server_stmt": [
+    "mysql.y"
+  ],
+  "restrict": [
+    "mysql.g4"
+  ],
+  "restrict_or_cascade_opt": [
+    "vitesse.y"
+  ],
+  "result": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "result_column": [
+    "sqlite.g4"
+  ],
+  "retain_current_password": [
+    "mysql.g4"
+  ],
+  "return_statement": [
+    "mysql.g4"
+  ],
+  "return_stmt": [
+    "postgres.y"
+  ],
+  "returning": [
+    "sqlite.y"
+  ],
+  "returning_clause": [
+    "postgres.y"
+  ],
+  "revert_statement": [
+    "vitesse.y"
+  ],
+  "revoke": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "revoke_command": [
+    "mariadb.y"
+  ],
+  "revoke_role_stmt": [
+    "postgres.y"
+  ],
+  "revoke_stmt": [
+    "postgres.y"
+  ],
+  "role": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "role_id": [
+    "postgres.y"
+  ],
+  "role_ident": [
+    "mysql.y"
+  ],
+  "role_ident_or_text": [
+    "mysql.y"
+  ],
+  "role_identifier": [
+    "mysql.g4"
+  ],
+  "role_identifier_or_text": [
+    "mysql.g4"
+  ],
+  "role_keyword": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "role_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "role_or_identifier_keyword": [
+    "mysql.g4"
+  ],
+  "role_or_label_keyword": [
+    "mysql.g4"
+  ],
+  "role_or_privilege": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "role_or_privilege_list": [
+    "mysql.y"
+  ],
+  "role_or_privileges_list": [
+    "mysql.g4"
+  ],
+  "role_ref": [
+    "mysql.g4"
+  ],
+  "role_spec": [
+    "postgres.y"
+  ],
+  "rollback": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "rollback_statement": [
+    "vitesse.y"
+  ],
+  "rollback_stmt": [
+    "sqlite.g4"
+  ],
+  "rollup_clause": [
+    "postgres.y"
+  ],
+  "routine_alter_options": [
+    "mysql.g4"
+  ],
+  "routine_body_stmt": [
+    "postgres.y"
+  ],
+  "routine_body_stmt_list": [
+    "postgres.y"
+  ],
+  "routine_create_option": [
+    "mysql.g4"
+  ],
+  "routine_option": [
+    "mysql.g4"
+  ],
+  "row": [
+    "postgres.y"
+  ],
+  "row_field_definition": [
+    "mariadb.y"
+  ],
+  "row_field_definition_list": [
+    "mariadb.y"
+  ],
+  "row_field_name": [
+    "mariadb.y"
+  ],
+  "row_format_options": [
+    "vitesse.y"
+  ],
+  "row_or_rows": [
+    "mariadb.y",
+    "postgres.y"
+  ],
+  "row_security_cmd": [
+    "postgres.y"
+  ],
+  "row_security_default_for_cmd": [
+    "postgres.y"
+  ],
+  "row_security_default_permissive": [
+    "postgres.y"
+  ],
+  "row_security_default_to_role": [
+    "postgres.y"
+  ],
+  "row_security_optional_expr": [
+    "postgres.y"
+  ],
+  "row_security_optional_to_role": [
+    "postgres.y"
+  ],
+  "row_security_optional_with_check": [
+    "postgres.y"
+  ],
+  "row_subquery": [
+    "mysql.y"
+  ],
+  "row_tuple": [
+    "vitesse.y"
+  ],
+  "row_type_body": [
+    "mariadb.y"
+  ],
+  "row_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "row_value": [
+    "mysql.y"
+  ],
+  "row_value_explicit": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "rowsfrom_item": [
+    "postgres.y"
+  ],
+  "rowsfrom_list": [
+    "postgres.y"
+  ],
+  "rule": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "rule_action_list": [
+    "postgres.y"
+  ],
+  "rule_action_multi": [
+    "postgres.y"
+  ],
+  "rule_action_stmt": [
+    "postgres.y"
+  ],
+  "rule_action_stmt_or_empty": [
+    "postgres.y"
+  ],
+  "rule_stmt": [
+    "postgres.y"
+  ],
+  "runtime_function_call": [
+    "mysql.g4"
+  ],
+  "savepoint": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "savepoint_name": [
+    "sqlite.g4"
+  ],
+  "savepoint_opt": [
+    "sqlite.y",
+    "vitesse.y"
+  ],
+  "savepoint_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "savepoint_stmt": [
+    "sqlite.g4"
+  ],
+  "scale": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "schedule": [
+    "mysql.g4"
+  ],
+  "schema": [
+    "mysql.y"
+  ],
+  "schema_identifier_pair": [
+    "mysql.g4"
+  ],
+  "schema_name": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "schema_ref": [
+    "mysql.g4"
+  ],
+  "schema_stmt": [
+    "postgres.y"
+  ],
+  "sconst": [
+    "postgres.y"
+  ],
+  "searched_case_stmt": [
+    "mysql.y"
+  ],
+  "searched_when_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "searched_when_clause_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sec_label_stmt": [
+    "postgres.y"
+  ],
+  "security_label": [
+    "postgres.y"
+  ],
+  "security_view": [
+    "vitesse.y"
+  ],
+  "security_view_opt": [
+    "vitesse.y"
+  ],
+  "select": [
+    "mariadb.y"
+  ],
+  "select_alias": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "select_clause": [
+    "postgres.y"
+  ],
+  "select_core": [
+    "sqlite.g4"
+  ],
+  "select_expression": [
+    "vitesse.y"
+  ],
+  "select_expression_list": [
+    "vitesse.y"
+  ],
+  "select_expression_list_opt": [
+    "vitesse.y"
+  ],
+  "select_fetch_first_value": [
+    "postgres.y"
+  ],
+  "select_into": [
+    "mariadb.y"
+  ],
+  "select_into_query_specification": [
+    "mariadb.y"
+  ],
+  "select_item": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "select_item_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "select_limit": [
+    "postgres.y"
+  ],
+  "select_limit_value": [
+    "postgres.y"
+  ],
+  "select_lock_type": [
+    "mariadb.y"
+  ],
+  "select_no_parens": [
+    "postgres.y"
+  ],
+  "select_offset_value": [
+    "postgres.y"
+  ],
+  "select_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "select_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "select_options": [
+    "mariadb.y",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "select_outvar": [
+    "mariadb.y"
+  ],
+  "select_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "select_statement_with_into": [
+    "mysql.g4"
+  ],
+  "select_stmt": [
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "select_stmt_with_into": [
+    "mysql.y"
+  ],
+  "select_sublist_qualified_asterisk": [
+    "mariadb.y"
+  ],
+  "select_var_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "select_var_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "select_var_list_init": [
+    "mariadb.y"
+  ],
+  "select_with_parens": [
+    "postgres.y"
+  ],
+  "semicolon": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "semicolon_opt": [
+    "vitesse.y"
+  ],
+  "separator": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "separator_opt": [
+    "vitesse.y"
+  ],
+  "seq_opt_elem": [
+    "postgres.y"
+  ],
+  "seq_opt_list": [
+    "postgres.y"
+  ],
+  "sequence_def": [
+    "mariadb.y"
+  ],
+  "sequence_defs": [
+    "mariadb.y"
+  ],
+  "serial_attribute": [
+    "mariadb.y"
+  ],
+  "server_def": [
+    "mariadb.y"
+  ],
+  "server_id_list": [
+    "mysql.g4"
+  ],
+  "server_name": [
+    "mysql.g4"
+  ],
+  "server_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "server_options": [
+    "mysql.g4"
+  ],
+  "server_options_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "server_ref": [
+    "mysql.g4"
+  ],
+  "session_or_local_opt": [
+    "vitesse.y"
+  ],
+  "set": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "set_assign": [
+    "mariadb.y"
+  ],
+  "set_clause": [
+    "postgres.y"
+  ],
+  "set_clause_list": [
+    "postgres.y"
+  ],
+  "set_expr_or_default": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "set_expression": [
+    "vitesse.y"
+  ],
+  "set_function_specification": [
+    "mysql.y"
+  ],
+  "set_list": [
+    "vitesse.y"
+  ],
+  "set_param": [
+    "mariadb.y"
+  ],
+  "set_quantifier": [
+    "postgres.y"
+  ],
+  "set_reset_clause": [
+    "postgres.y"
+  ],
+  "set_resource_group": [
+    "mysql.g4"
+  ],
+  "set_resource_group_stmt": [
+    "mysql.y"
+  ],
+  "set_rest": [
+    "postgres.y"
+  ],
+  "set_rest_more": [
+    "postgres.y"
+  ],
+  "set_role": [
+    "mysql.g4"
+  ],
+  "set_role_stmt": [
+    "mysql.y"
+  ],
+  "set_session_or_global": [
+    "vitesse.y"
+  ],
+  "set_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "set_stmt_option": [
+    "mariadb.y"
+  ],
+  "set_stmt_option_list": [
+    "mariadb.y"
+  ],
+  "set_system_variable": [
+    "mysql.g4"
+  ],
+  "set_target": [
+    "postgres.y"
+  ],
+  "set_target_list": [
+    "postgres.y"
+  ],
+  "set_transaction_statement": [
+    "vitesse.y"
+  ],
+  "set_var_ident_type": [
+    "mysql.g4"
+  ],
+  "sf_c_chistics_and_body_standalone": [
+    "mariadb.y"
+  ],
+  "sf_return_type": [
+    "mariadb.y"
+  ],
+  "sf_tail": [
+    "mysql.y"
+  ],
+  "show": [
+    "mariadb.y"
+  ],
+  "show_binary_logs_stmt": [
+    "mysql.y"
+  ],
+  "show_binlog_events_stmt": [
+    "mysql.y"
+  ],
+  "show_character_set_stmt": [
+    "mysql.y"
+  ],
+  "show_collation_stmt": [
+    "mysql.y"
+  ],
+  "show_columns_stmt": [
+    "mysql.y"
+  ],
+  "show_command_type": [
+    "mysql.g4"
+  ],
+  "show_count_errors_stmt": [
+    "mysql.y"
+  ],
+  "show_count_warnings_stmt": [
+    "mysql.y"
+  ],
+  "show_create_database_stmt": [
+    "mysql.y"
+  ],
+  "show_create_event_stmt": [
+    "mysql.y"
+  ],
+  "show_create_function_stmt": [
+    "mysql.y"
+  ],
+  "show_create_procedure_stmt": [
+    "mysql.y"
+  ],
+  "show_create_table_stmt": [
+    "mysql.y"
+  ],
+  "show_create_trigger_stmt": [
+    "mysql.y"
+  ],
+  "show_create_user_stmt": [
+    "mysql.y"
+  ],
+  "show_create_view_stmt": [
+    "mysql.y"
+  ],
+  "show_databases_stmt": [
+    "mysql.y"
+  ],
+  "show_engine_logs_stmt": [
+    "mysql.y"
+  ],
+  "show_engine_mutex_stmt": [
+    "mysql.y"
+  ],
+  "show_engine_param": [
+    "mariadb.y"
+  ],
+  "show_engine_status_stmt": [
+    "mysql.y"
+  ],
+  "show_engines_stmt": [
+    "mysql.y"
+  ],
+  "show_errors_stmt": [
+    "mysql.y"
+  ],
+  "show_events_stmt": [
+    "mysql.y"
+  ],
+  "show_function_code_stmt": [
+    "mysql.y"
+  ],
+  "show_function_status_stmt": [
+    "mysql.y"
+  ],
+  "show_grants_stmt": [
+    "mysql.y"
+  ],
+  "show_keys_stmt": [
+    "mysql.y"
+  ],
+  "show_master_status_stmt": [
+    "mysql.y"
+  ],
+  "show_open_tables_stmt": [
+    "mysql.y"
+  ],
+  "show_param": [
+    "mariadb.y"
+  ],
+  "show_plugins_stmt": [
+    "mysql.y"
+  ],
+  "show_privileges_stmt": [
+    "mysql.y"
+  ],
+  "show_procedure_code_stmt": [
+    "mysql.y"
+  ],
+  "show_procedure_status_stmt": [
+    "mysql.y"
+  ],
+  "show_processlist_stmt": [
+    "mysql.y"
+  ],
+  "show_profile_stmt": [
+    "mysql.y"
+  ],
+  "show_profiles_stmt": [
+    "mysql.y"
+  ],
+  "show_relaylog_events_stmt": [
+    "mysql.y"
+  ],
+  "show_replica_status_stmt": [
+    "mysql.y"
+  ],
+  "show_replicas_stmt": [
+    "mysql.y"
+  ],
+  "show_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "show_status_stmt": [
+    "mysql.y"
+  ],
+  "show_table_status_stmt": [
+    "mysql.y"
+  ],
+  "show_tables_stmt": [
+    "mysql.y"
+  ],
+  "show_triggers_stmt": [
+    "mysql.y"
+  ],
+  "show_variables_stmt": [
+    "mysql.y"
+  ],
+  "show_warnings_stmt": [
+    "mysql.y"
+  ],
+  "shutdown": [
+    "mariadb.y"
+  ],
+  "shutdown_option": [
+    "mariadb.y"
+  ],
+  "shutdown_stmt": [
+    "mysql.y"
+  ],
+  "sign": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "signal_allowed_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "signal_condition_information_item_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "signal_information_item": [
+    "mysql.g4"
+  ],
+  "signal_information_item_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "signal_information_item_name": [
+    "mysql.g4"
+  ],
+  "signal_statement": [
+    "mysql.g4"
+  ],
+  "signal_stmt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "signal_value": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "signed": [
+    "sqlite.y"
+  ],
+  "signed_iconst": [
+    "postgres.y"
+  ],
+  "signed_literal": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "signed_literal_or_null": [
+    "mysql.y"
+  ],
+  "signed_num": [
+    "mysql.y"
+  ],
+  "signed_number": [
+    "sqlite.g4"
+  ],
+  "simple_case_stmt": [
+    "mysql.y"
+  ],
+  "simple_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "simple_expr_with_parentheses": [
+    "mysql.g4"
+  ],
+  "simple_func": [
+    "sqlite.g4"
+  ],
+  "simple_function_invocation": [
+    "sqlite.g4"
+  ],
+  "simple_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "simple_ident_list": [
+    "mysql.y"
+  ],
+  "simple_ident_nospvar": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "simple_ident_q": [
+    "mysql.y"
+  ],
+  "simple_identifier": [
+    "mysql.g4"
+  ],
+  "simple_limit_clause": [
+    "mysql.g4"
+  ],
+  "simple_select": [
+    "postgres.y",
+    "vitesse.y"
+  ],
+  "simple_select_stmt": [
+    "sqlite.g4"
+  ],
+  "simple_statement": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "simple_statement_or_begin": [
+    "mysql.y"
+  ],
+  "simple_table": [
+    "mariadb.y"
+  ],
+  "simple_target_specification": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "simple_typename": [
+    "postgres.y"
+  ],
+  "simple_when_clause": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "simple_when_clause_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "simple_window_func": [
+    "mariadb.y"
+  ],
+  "single_multi": [
+    "mariadb.y"
+  ],
+  "single_table": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "single_table_parens": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "size_number": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "skip_to_end": [
+    "vitesse.y"
+  ],
+  "slave": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "slave_connection_options": [
+    "mysql.g4"
+  ],
+  "slave_reset_options": [
+    "mariadb.y"
+  ],
+  "slave_thread_opt": [
+    "mariadb.y"
+  ],
+  "slave_thread_opt_list": [
+    "mariadb.y"
+  ],
+  "slave_thread_option": [
+    "mysql.g4"
+  ],
+  "slave_thread_options": [
+    "mysql.g4"
+  ],
+  "slave_thread_opts": [
+    "mariadb.y"
+  ],
+  "slave_until": [
+    "mariadb.y"
+  ],
+  "slave_until_options": [
+    "mysql.g4"
+  ],
+  "slave_until_opts": [
+    "mariadb.y"
+  ],
+  "solidus": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "some": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "sort_clause": [
+    "postgres.y"
+  ],
+  "sortby": [
+    "postgres.y"
+  ],
+  "sortby_list": [
+    "postgres.y"
+  ],
+  "source_def": [
+    "mysql.y"
+  ],
+  "source_defs": [
+    "mysql.y"
+  ],
+  "source_file_def": [
+    "mysql.y"
+  ],
+  "source_log_file": [
+    "mysql.y"
+  ],
+  "source_log_pos": [
+    "mysql.y"
+  ],
+  "source_reset_options": [
+    "mysql.y"
+  ],
+  "source_tls_ciphersuites_def": [
+    "mysql.y"
+  ],
+  "sp_a_chistics": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_block_content": [
+    "mysql.y"
+  ],
+  "sp_block_label": [
+    "mariadb.y"
+  ],
+  "sp_block_statements_and_exceptions": [
+    "mariadb.y"
+  ],
+  "sp_body": [
+    "mariadb.y"
+  ],
+  "sp_c_chistic": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_c_chistics": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_case_then_statements": [
+    "mariadb.y"
+  ],
+  "sp_chistic": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_cond": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_condition": [
+    "mysql.g4"
+  ],
+  "sp_control_label": [
+    "mariadb.y"
+  ],
+  "sp_cparams": [
+    "mariadb.y"
+  ],
+  "sp_cursor_stmt": [
+    "mariadb.y"
+  ],
+  "sp_cursor_stmt_lex": [
+    "mariadb.y"
+  ],
+  "sp_decl": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_decl_body": [
+    "mariadb.y"
+  ],
+  "sp_decl_body_list": [
+    "mariadb.y"
+  ],
+  "sp_decl_handler": [
+    "mariadb.y"
+  ],
+  "sp_decl_handler_list": [
+    "mariadb.y"
+  ],
+  "sp_decl_ident": [
+    "mariadb.y"
+  ],
+  "sp_decl_idents": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_decl_idents_init_vars": [
+    "mariadb.y"
+  ],
+  "sp_decl_non_handler": [
+    "mariadb.y"
+  ],
+  "sp_decl_non_handler_list": [
+    "mariadb.y"
+  ],
+  "sp_decl_variable_list": [
+    "mariadb.y"
+  ],
+  "sp_decl_variable_list_anchored": [
+    "mariadb.y"
+  ],
+  "sp_declaration": [
+    "mysql.g4"
+  ],
+  "sp_declarations": [
+    "mysql.g4"
+  ],
+  "sp_decls": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_elseifs": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_fdparam": [
+    "mysql.y"
+  ],
+  "sp_fdparam_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_fdparams": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_fetch_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_for_loop_bounds": [
+    "mariadb.y"
+  ],
+  "sp_for_loop_index_and_bounds": [
+    "mariadb.y"
+  ],
+  "sp_handler": [
+    "mariadb.y"
+  ],
+  "sp_handler_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_hcond": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_hcond_element": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_hcond_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_if": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_if_then_statements": [
+    "mariadb.y"
+  ],
+  "sp_instr_addr": [
+    "mariadb.y"
+  ],
+  "sp_label": [
+    "mariadb.y"
+  ],
+  "sp_labelable_stmt": [
+    "mariadb.y"
+  ],
+  "sp_labeled_block": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_labeled_control": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_no_param": [
+    "mariadb.y"
+  ],
+  "sp_opt_default": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_opt_fetch_noise": [
+    "mysql.y"
+  ],
+  "sp_opt_inout": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_opt_label": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_param_name": [
+    "mariadb.y"
+  ],
+  "sp_param_name_and_type": [
+    "mariadb.y"
+  ],
+  "sp_param_name_and_type_anchored": [
+    "mariadb.y"
+  ],
+  "sp_parameter_type": [
+    "mariadb.y"
+  ],
+  "sp_parenthesized_fdparam_list": [
+    "mariadb.y"
+  ],
+  "sp_parenthesized_pdparam_list": [
+    "mariadb.y"
+  ],
+  "sp_pdparam": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_pdparam_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_pdparams": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_close": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_compound_ok": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_continue_oracle": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_exit_oracle": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_fetch": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_fetch_head": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_goto_oracle": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_if": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_in_returns_clause": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmt_iterate": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_leave": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_open": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_return": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_statement": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmt_unlabeled": [
+    "mysql.y"
+  ],
+  "sp_proc_stmt_with_cursor": [
+    "mariadb.y"
+  ],
+  "sp_proc_stmts": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmts1": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_proc_stmts1_implicit_block": [
+    "mariadb.y"
+  ],
+  "sp_statement": [
+    "mariadb.y"
+  ],
+  "sp_suid": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_tail": [
+    "mysql.y"
+  ],
+  "sp_tail_is": [
+    "mariadb.y"
+  ],
+  "sp_tail_standalone": [
+    "mariadb.y"
+  ],
+  "sp_unlabeled_block": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sp_unlabeled_block_not_atomic": [
+    "mariadb.y"
+  ],
+  "sp_unlabeled_control": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "space": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "space_separated_table_option_list": [
+    "vitesse.y"
+  ],
+  "spatial": [
+    "mariadb.y"
+  ],
+  "spatial_index_option": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "spatial_index_options": [
+    "mysql.y"
+  ],
+  "spatial_key_opt": [
+    "mariadb.y"
+  ],
+  "spatial_key_options": [
+    "mariadb.y"
+  ],
+  "spatial_key_opts": [
+    "mariadb.y"
+  ],
+  "spatial_type": [
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "sql_id": [
+    "vitesse.y"
+  ],
+  "sql_statement": [
+    "mysql.y"
+  ],
+  "sql_stmt": [
+    "sqlite.g4"
+  ],
+  "sql_stmt_list": [
+    "sqlite.g4"
+  ],
+  "sqlstate": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "srid_option": [
+    "mariadb.y"
+  ],
+  "srs_attribute": [
+    "mysql.g4"
+  ],
+  "srs_attributes": [
+    "mysql.y"
+  ],
+  "ssl": [
+    "mysql.g4"
+  ],
+  "stable_integer": [
+    "mysql.y"
+  ],
+  "standalone_alter_commands": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "standalone_alter_table_action": [
+    "mysql.y"
+  ],
+  "standard_float_options": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "start": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "start_entry": [
+    "mysql.y"
+  ],
+  "start_option_value_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "start_option_value_list_following_option_type": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "start_replica_stmt": [
+    "mysql.y"
+  ],
+  "start_transaction_option": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "start_transaction_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "statement": [
+    "mariadb.y"
+  ],
+  "statement_information": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "statement_information_item": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "statement_information_item_name": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "stats_param": [
+    "postgres.y"
+  ],
+  "stats_params": [
+    "postgres.y"
+  ],
+  "stmt": [
+    "postgres.y"
+  ],
+  "stmt_end": [
+    "mariadb.y"
+  ],
+  "stmtmulti": [
+    "postgres.y"
+  ],
+  "stop_replica_stmt": [
+    "mysql.y"
+  ],
+  "storage_engines": [
+    "mariadb.y"
+  ],
+  "storage_media": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "storage_opt": [
+    "vitesse.y"
+  ],
+  "straight_join": [
+    "vitesse.y"
+  ],
+  "stream_statement": [
+    "vitesse.y"
+  ],
+  "string_dyncol_type": [
+    "mariadb.y"
+  ],
+  "string_factor_expr": [
+    "mariadb.y"
+  ],
+  "string_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "sub_name": [
+    "mariadb.y"
+  ],
+  "sub_part_definition": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sub_part_field_item": [
+    "mariadb.y"
+  ],
+  "sub_part_field_list": [
+    "mariadb.y"
+  ],
+  "sub_part_func": [
+    "mariadb.y"
+  ],
+  "sub_part_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "sub_partitions": [
+    "mysql.g4"
+  ],
+  "sub_type": [
+    "postgres.y"
+  ],
+  "subpartition_definition": [
+    "mysql.g4"
+  ],
+  "subquery": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf",
+    "vitesse.y"
+  ],
+  "subquery__op": [
+    "postgres.y"
+  ],
+  "subselect": [
+    "mariadb.y"
+  ],
+  "substr_list": [
+    "postgres.y"
+  ],
+  "substring_function": [
+    "mysql.g4"
+  ],
+  "sum_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "system_time_expr": [
+    "mariadb.y"
+  ],
+  "system_variable": [
+    "mysql.g4"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_filesystem": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_hash": [
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_literal": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_password": [
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_sys": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_sys_list": [
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_sys_nonewline": [
+    "mysql.y"
+  ],
+  "t_e_x_t__s_t_r_i_n_g_validated": [
+    "mysql.y"
+  ],
+  "table_access_method_clause": [
+    "postgres.y"
+  ],
+  "table_administration_statement": [
+    "mysql.g4"
+  ],
+  "table_alias": [
+    "mariadb.y",
+    "mysql.g4",
+    "sqlite.g4",
+    "vitesse.y"
+  ],
+  "table_alias_clause": [
+    "mariadb.y"
+  ],
+  "table_alias_ref": [
+    "mariadb.y"
+  ],
+  "table_alias_ref_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_column_list": [
+    "mariadb.y",
+    "vitesse.y"
+  ],
+  "table_constraint": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "table_constraint_def": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_element": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "table_element_list": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "table_factor": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "table_func_column": [
+    "postgres.y"
+  ],
+  "table_func_column_list": [
+    "postgres.y"
+  ],
+  "table_func_element": [
+    "postgres.y"
+  ],
+  "table_func_element_list": [
+    "postgres.y"
+  ],
+  "table_function": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_function_name": [
+    "sqlite.g4"
+  ],
+  "table_id": [
+    "vitesse.y"
+  ],
+  "table_id_opt": [
+    "vitesse.y"
+  ],
+  "table_ident": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_ident_nodb": [
+    "mariadb.y"
+  ],
+  "table_ident_opt_wild": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_index_list": [
+    "mariadb.y"
+  ],
+  "table_index_name": [
+    "mariadb.y"
+  ],
+  "table_like_clause": [
+    "postgres.y"
+  ],
+  "table_like_option": [
+    "postgres.y"
+  ],
+  "table_like_option_list": [
+    "postgres.y"
+  ],
+  "table_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_lock": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_lock_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_locking_list": [
+    "mysql.y"
+  ],
+  "table_name": [
+    "mariadb.y",
+    "mysql.g4",
+    "sqlite.g4",
+    "vitesse.y"
+  ],
+  "table_name_list": [
+    "vitesse.y"
+  ],
+  "table_name_with_opt_use_partition": [
+    "mariadb.y"
+  ],
+  "table_opt_value": [
+    "vitesse.y"
+  ],
+  "table_option": [
+    "vitesse.y"
+  ],
+  "table_option_list": [
+    "vitesse.y"
+  ],
+  "table_option_list_opt": [
+    "vitesse.y"
+  ],
+  "table_or_index_name": [
+    "sqlite.g4"
+  ],
+  "table_or_subquery": [
+    "sqlite.g4"
+  ],
+  "table_or_tables": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_primary_derived": [
+    "mariadb.y"
+  ],
+  "table_primary_derived_opt_parens": [
+    "mariadb.y"
+  ],
+  "table_primary_ident": [
+    "mariadb.y"
+  ],
+  "table_primary_ident_opt_parens": [
+    "mariadb.y"
+  ],
+  "table_primary_key_check_def": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_ref": [
+    "mariadb.y",
+    "mysql.g4",
+    "postgres.y"
+  ],
+  "table_ref_list": [
+    "mysql.g4"
+  ],
+  "table_ref_with_wildcard": [
+    "mysql.g4"
+  ],
+  "table_reference": [
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "table_reference_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_reference_list_parens": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_references": [
+    "vitesse.y"
+  ],
+  "table_spec": [
+    "vitesse.y"
+  ],
+  "table_subquery": [
+    "mysql.y"
+  ],
+  "table_to_table": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_to_table_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "table_value_constructor": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_wild": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "table_wild_list": [
+    "mariadb.y"
+  ],
+  "table_wild_one": [
+    "mariadb.y"
+  ],
+  "tablesample_clause": [
+    "postgres.y"
+  ],
+  "tablespace_info": [
+    "mariadb.y"
+  ],
+  "tablespace_name": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "tablespace_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "tablespace_option_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "tablespace_options": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "tablespace_ref": [
+    "mysql.g4"
+  ],
+  "target_el": [
+    "postgres.y"
+  ],
+  "target_list": [
+    "postgres.y"
+  ],
+  "tcons": [
+    "sqlite.y"
+  ],
+  "tconscomma": [
+    "sqlite.y"
+  ],
+  "temp_opt": [
+    "vitesse.y"
+  ],
+  "temporal_dyncol_type": [
+    "mariadb.y"
+  ],
+  "temporal_literal": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "term": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "ternary_option": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "text_literal": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "text_or_identifier": [
+    "mysql.g4"
+  ],
+  "text_or_password": [
+    "mariadb.y"
+  ],
+  "text_string": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "text_string_hash": [
+    "mysql.g4"
+  ],
+  "text_string_literal": [
+    "mysql.g4"
+  ],
+  "text_string_literal_list": [
+    "mysql.g4"
+  ],
+  "text_string_no_linebreak": [
+    "mysql.g4"
+  ],
+  "then_expression": [
+    "mysql.g4"
+  ],
+  "then_statement": [
+    "mysql.g4"
+  ],
+  "thread_id_list": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "thread_id_list_options": [
+    "mysql.y"
+  ],
+  "time_function_parameters": [
+    "mysql.g4"
+  ],
+  "time_type": [
+    "vitesse.y"
+  ],
+  "to_opt": [
+    "vitesse.y"
+  ],
+  "token": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "toplevel_stmt": [
+    "postgres.y"
+  ],
+  "trans_opt": [
+    "sqlite.y"
+  ],
+  "transaction_access_mode": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "transaction_access_mode_types": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "transaction_char": [
+    "vitesse.y"
+  ],
+  "transaction_characteristic": [
+    "mysql.g4"
+  ],
+  "transaction_characteristics": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "transaction_chars": [
+    "vitesse.y"
+  ],
+  "transaction_mode_item": [
+    "postgres.y"
+  ],
+  "transaction_mode_list": [
+    "postgres.y"
+  ],
+  "transaction_mode_list_or_empty": [
+    "postgres.y"
+  ],
+  "transaction_name": [
+    "sqlite.g4"
+  ],
+  "transaction_or_locking_statement": [
+    "mysql.g4"
+  ],
+  "transaction_statement": [
+    "mysql.g4"
+  ],
+  "transaction_stmt": [
+    "postgres.y"
+  ],
+  "transaction_stmt_legacy": [
+    "postgres.y"
+  ],
+  "transcoding": [
+    "sql2003.bnf"
+  ],
+  "transform_element_list": [
+    "postgres.y"
+  ],
+  "transform_type_list": [
+    "postgres.y"
+  ],
+  "transition_old_or_new": [
+    "postgres.y"
+  ],
+  "transition_rel_name": [
+    "postgres.y"
+  ],
+  "transition_row_or_table": [
+    "postgres.y"
+  ],
+  "trg_action_time": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "trg_event": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "tridxby": [
+    "sqlite.y"
+  ],
+  "trigger_action_order": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "trigger_action_time": [
+    "postgres.y"
+  ],
+  "trigger_events": [
+    "postgres.y"
+  ],
+  "trigger_follows_precedes_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "trigger_for_opt_each": [
+    "postgres.y"
+  ],
+  "trigger_for_spec": [
+    "postgres.y"
+  ],
+  "trigger_for_type": [
+    "postgres.y"
+  ],
+  "trigger_func_arg": [
+    "postgres.y"
+  ],
+  "trigger_func_args": [
+    "postgres.y"
+  ],
+  "trigger_name": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "trigger_one_event": [
+    "postgres.y"
+  ],
+  "trigger_ref": [
+    "mysql.g4"
+  ],
+  "trigger_referencing": [
+    "postgres.y"
+  ],
+  "trigger_tail": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "trigger_transition": [
+    "postgres.y"
+  ],
+  "trigger_transitions": [
+    "postgres.y"
+  ],
+  "trigger_when": [
+    "postgres.y"
+  ],
+  "trim_function": [
+    "mysql.g4"
+  ],
+  "trim_list": [
+    "postgres.y"
+  ],
+  "trim_operands": [
+    "mariadb.y"
+  ],
+  "truncate": [
+    "mariadb.y"
+  ],
+  "truncate_statement": [
+    "vitesse.y"
+  ],
+  "truncate_stmt": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "truncate_table_statement": [
+    "mysql.g4"
+  ],
+  "ts_access_mode": [
+    "mariadb.y"
+  ],
+  "ts_data_file": [
+    "mysql.g4"
+  ],
+  "ts_data_file_name": [
+    "mysql.g4"
+  ],
+  "ts_datafile": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ts_option_autoextend_size": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_comment": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_encryption": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_engine": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_engine_attribute": [
+    "mysql.y"
+  ],
+  "ts_option_extent_size": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_file_block_size": [
+    "mysql.y"
+  ],
+  "ts_option_fileblock_size": [
+    "mysql.g4"
+  ],
+  "ts_option_initial_size": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_max_size": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_nodegroup": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_option_redo_buffer_size": [
+    "mysql.y"
+  ],
+  "ts_option_undo_buffer_size": [
+    "mysql.y"
+  ],
+  "ts_option_undo_redo_buffer_size": [
+    "mysql.g4"
+  ],
+  "ts_option_wait": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ts_wait": [
+    "mariadb.y"
+  ],
+  "tuple_expression": [
+    "vitesse.y"
+  ],
+  "tuple_list": [
+    "vitesse.y"
+  ],
+  "tuple_or_empty": [
+    "vitesse.y"
+  ],
+  "type": [
+    "mysql.y"
+  ],
+  "type_datetime_precision": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "type_func_name_keyword": [
+    "postgres.y"
+  ],
+  "type_function_name": [
+    "postgres.y"
+  ],
+  "type_list": [
+    "postgres.y"
+  ],
+  "type_name": [
+    "sqlite.g4"
+  ],
+  "type_name_list": [
+    "postgres.y"
+  ],
+  "type_with_opt_collate": [
+    "mysql.g4"
+  ],
+  "typed_table_element": [
+    "postgres.y"
+  ],
+  "typed_table_element_list": [
+    "postgres.y"
+  ],
+  "typename": [
+    "postgres.y"
+  ],
+  "udf_expr": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "udf_expr_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "udf_name": [
+    "mysql.g4"
+  ],
+  "udf_tail": [
+    "mysql.y"
+  ],
+  "udf_type": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ulong_num": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ulong_number": [
+    "mysql.g4"
+  ],
+  "ulonglong_num": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "ulonglong_number": [
+    "mysql.g4"
+  ],
+  "unary_operator": [
+    "sqlite.g4"
+  ],
+  "underscore": [
+    "sql2003.bnf",
+    "sql92.bnf",
+    "sql99.bnf"
+  ],
+  "undo_table_space_option": [
+    "mysql.g4"
+  ],
+  "undo_table_space_options": [
+    "mysql.g4"
+  ],
+  "undo_tablespace_option": [
+    "mysql.y"
+  ],
+  "undo_tablespace_option_list": [
+    "mysql.y"
+  ],
+  "undo_tablespace_state": [
+    "mysql.y"
+  ],
+  "unicode": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "unicode_normal_form": [
+    "postgres.y"
+  ],
+  "uninstall": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "union_op": [
+    "vitesse.y"
+  ],
+  "union_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "union_rhs": [
+    "vitesse.y"
+  ],
+  "unit_type_decl": [
+    "mariadb.y"
+  ],
+  "unlabeled_block": [
+    "mysql.g4"
+  ],
+  "unlabeled_control": [
+    "mysql.g4"
+  ],
+  "unlisten_stmt": [
+    "postgres.y"
+  ],
+  "unlock": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "unlock_statement": [
+    "vitesse.y"
+  ],
+  "unreserved_keyword": [
+    "postgres.y"
+  ],
+  "unsigned_opt": [
+    "vitesse.y"
+  ],
+  "update": [
+    "mariadb.y"
+  ],
+  "update_elem": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "update_element": [
+    "mysql.g4"
+  ],
+  "update_expression": [
+    "vitesse.y"
+  ],
+  "update_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "update_statement": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "update_stmt": [
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "update_stmt_limited": [
+    "sqlite.g4"
+  ],
+  "update_table_list": [
+    "mariadb.y"
+  ],
+  "upsert_clause": [
+    "sqlite.g4"
+  ],
+  "use": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "use_command": [
+    "mysql.g4"
+  ],
+  "use_partition": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "use_statement": [
+    "vitesse.y"
+  ],
+  "user": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "vitesse.y"
+  ],
+  "user_and_role_list": [
+    "mariadb.y"
+  ],
+  "user_func": [
+    "mysql.y"
+  ],
+  "user_function": [
+    "mysql.g4"
+  ],
+  "user_ident_or_text": [
+    "mysql.y"
+  ],
+  "user_identifier_or_text": [
+    "mysql.g4"
+  ],
+  "user_list": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "user_maybe_role": [
+    "mariadb.y"
+  ],
+  "user_or_role": [
+    "mariadb.y"
+  ],
+  "user_variable": [
+    "mysql.g4"
+  ],
+  "using_clause": [
+    "postgres.y"
+  ],
+  "using_index_type": [
+    "vitesse.y"
+  ],
+  "using_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "using_opt": [
+    "vitesse.y"
+  ],
+  "using_or_as": [
+    "mariadb.y"
+  ],
+  "utility_option_arg": [
+    "postgres.y"
+  ],
+  "utility_option_elem": [
+    "postgres.y"
+  ],
+  "utility_option_list": [
+    "postgres.y"
+  ],
+  "utility_option_name": [
+    "postgres.y"
+  ],
+  "utility_statement": [
+    "mysql.g4"
+  ],
+  "vacuum_relation": [
+    "postgres.y"
+  ],
+  "vacuum_relation_list": [
+    "postgres.y"
+  ],
+  "vacuum_stmt": [
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "validator_clause": [
+    "postgres.y"
+  ],
+  "value": [
+    "vitesse.y"
+  ],
+  "value_expression": [
+    "vitesse.y"
+  ],
+  "value_list": [
+    "mysql.g4"
+  ],
+  "value_or_values": [
+    "mysql.y"
+  ],
+  "values": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "values_clause": [
+    "postgres.y"
+  ],
+  "values_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "values_reference": [
+    "mysql.g4"
+  ],
+  "values_row_list": [
+    "mysql.y"
+  ],
+  "values_with_names": [
+    "mariadb.y"
+  ],
+  "var_ident_type": [
+    "mysql.g4"
+  ],
+  "var_list": [
+    "postgres.y"
+  ],
+  "var_name": [
+    "postgres.y"
+  ],
+  "var_value": [
+    "postgres.y"
+  ],
+  "varchar": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "variable": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "variable_aux": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "variable_declaration": [
+    "mysql.g4"
+  ],
+  "variable_reset_stmt": [
+    "postgres.y"
+  ],
+  "variable_set_stmt": [
+    "postgres.y"
+  ],
+  "variable_show_stmt": [
+    "postgres.y"
+  ],
+  "vcol_attribute": [
+    "mariadb.y"
+  ],
+  "vcol_opt_attribute": [
+    "mariadb.y"
+  ],
+  "vcol_opt_attribute_list": [
+    "mariadb.y"
+  ],
+  "vcol_opt_specifier": [
+    "mariadb.y"
+  ],
+  "vcpu_num_or_range": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "vcpu_range_spec_list": [
+    "mysql.y"
+  ],
+  "verb_clause": [
+    "mariadb.y"
+  ],
+  "versioned_require_clause": [
+    "mysql.g4"
+  ],
+  "versioning_option": [
+    "mariadb.y"
+  ],
+  "via_or_with": [
+    "mariadb.y"
+  ],
+  "view_algorithm": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "view_check_option": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "view_list": [
+    "mariadb.y"
+  ],
+  "view_list_opt": [
+    "mariadb.y"
+  ],
+  "view_name": [
+    "mysql.g4",
+    "sqlite.g4"
+  ],
+  "view_name_list": [
+    "vitesse.y"
+  ],
+  "view_or_trigger_or_sp_or_event": [
+    "mysql.y"
+  ],
+  "view_query_block": [
+    "mysql.y"
+  ],
+  "view_ref": [
+    "mysql.g4"
+  ],
+  "view_ref_list": [
+    "mysql.g4"
+  ],
+  "view_replace": [
+    "mysql.y"
+  ],
+  "view_replace_or_algorithm": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "view_select": [
+    "mariadb.y",
+    "mysql.g4"
+  ],
+  "view_stmt": [
+    "postgres.y"
+  ],
+  "view_suid": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "view_tail": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "vindex_param": [
+    "vitesse.y"
+  ],
+  "vindex_param_list": [
+    "vitesse.y"
+  ],
+  "vindex_params_opt": [
+    "vitesse.y"
+  ],
+  "vindex_type": [
+    "vitesse.y"
+  ],
+  "vindex_type_opt": [
+    "vitesse.y"
+  ],
+  "virtual_column_func": [
+    "mariadb.y"
+  ],
+  "visibility": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "vitess_topo": [
+    "vitesse.y"
+  ],
+  "vstream_statement": [
+    "vitesse.y"
+  ],
+  "vtabarg": [
+    "sqlite.y"
+  ],
+  "vtabarglist": [
+    "sqlite.y"
+  ],
+  "vtabargtoken": [
+    "sqlite.y"
+  ],
+  "weight_string_level_list_item": [
+    "mysql.g4"
+  ],
+  "weight_string_levels": [
+    "mysql.g4"
+  ],
+  "when_clause": [
+    "postgres.y"
+  ],
+  "when_clause_list": [
+    "postgres.y"
+  ],
+  "when_expression": [
+    "mysql.g4",
+    "vitesse.y"
+  ],
+  "when_expression_list": [
+    "vitesse.y"
+  ],
+  "when_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "when_list_opt_else": [
+    "mariadb.y"
+  ],
+  "where_clause": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "where_expression_opt": [
+    "vitesse.y"
+  ],
+  "where_or_current_clause": [
+    "postgres.y"
+  ],
+  "which_area": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "while_body": [
+    "mariadb.y"
+  ],
+  "while_do_block": [
+    "mysql.g4"
+  ],
+  "wild_and_where": [
+    "mariadb.y"
+  ],
+  "wild_opt": [
+    "vitesse.y"
+  ],
+  "window_clause": [
+    "mysql.g4",
+    "postgres.y"
+  ],
+  "window_def": [
+    "mariadb.y"
+  ],
+  "window_def_list": [
+    "mariadb.y"
+  ],
+  "window_definition": [
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y"
+  ],
+  "window_definition_list": [
+    "mysql.y",
+    "postgres.y"
+  ],
+  "window_defn": [
+    "sqlite.g4"
+  ],
+  "window_frame_between": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_frame_bound": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_frame_clause": [
+    "mysql.g4"
+  ],
+  "window_frame_exclusion": [
+    "mysql.g4"
+  ],
+  "window_frame_extent": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_frame_start": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_frame_units": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_func": [
+    "mariadb.y"
+  ],
+  "window_func_call": [
+    "mysql.y"
+  ],
+  "window_func_expr": [
+    "mariadb.y"
+  ],
+  "window_function": [
+    "sqlite.g4"
+  ],
+  "window_function_call": [
+    "mysql.g4"
+  ],
+  "window_function_invocation": [
+    "sqlite.g4"
+  ],
+  "window_name": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "sqlite.g4"
+  ],
+  "window_name_or_spec": [
+    "mysql.y"
+  ],
+  "window_spec": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_spec_details": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "window_specification": [
+    "postgres.y"
+  ],
+  "windowing_clause": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "with": [
+    "sqlite.y"
+  ],
+  "with_clause": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y",
+    "postgres.y",
+    "sqlite.g4"
+  ],
+  "with_column_list": [
+    "mariadb.y"
+  ],
+  "with_element_head": [
+    "mariadb.y"
+  ],
+  "with_list": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "with_list_element": [
+    "mariadb.y"
+  ],
+  "with_or_without_system": [
+    "mariadb.y"
+  ],
+  "with_roles": [
+    "mysql.g4"
+  ],
+  "with_validation": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "within_group_clause": [
+    "postgres.y"
+  ],
+  "without_valid_opt": [
+    "vitesse.y"
+  ],
+  "work_opt": [
+    "vitesse.y"
+  ],
+  "ws_level_flag_desc": [
+    "mariadb.y"
+  ],
+  "ws_level_flag_reverse": [
+    "mariadb.y"
+  ],
+  "ws_level_flags": [
+    "mariadb.y"
+  ],
+  "ws_level_list": [
+    "mariadb.y"
+  ],
+  "ws_level_list_item": [
+    "mariadb.y"
+  ],
+  "ws_level_list_or_range": [
+    "mariadb.y"
+  ],
+  "ws_level_number": [
+    "mariadb.y"
+  ],
+  "ws_level_range": [
+    "mariadb.y"
+  ],
+  "ws_num_codepoints": [
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "ws_nweights": [
+    "mariadb.y"
+  ],
+  "xa": [
+    "mariadb.y",
+    "mysql.y"
+  ],
+  "xa_convert": [
+    "mysql.g4"
+  ],
+  "xa_statement": [
+    "mysql.g4"
+  ],
+  "xid": [
+    "mariadb.y",
+    "mysql.g4",
+    "mysql.y"
+  ],
+  "xml_attribute_el": [
+    "postgres.y"
+  ],
+  "xml_attribute_list": [
+    "postgres.y"
+  ],
+  "xml_attributes": [
+    "postgres.y"
+  ],
+  "xml_namespace_el": [
+    "postgres.y"
+  ],
+  "xml_namespace_list": [
+    "postgres.y"
+  ],
+  "xml_passing_mech": [
+    "postgres.y"
+  ],
+  "xml_root_version": [
+    "postgres.y"
+  ],
+  "xml_rows_identified_by": [
+    "mysql.g4"
+  ],
+  "xml_whitespace_option": [
+    "postgres.y"
+  ],
+  "xmlexists_argument": [
+    "postgres.y"
+  ],
+  "xmltable": [
+    "postgres.y"
+  ],
+  "xmltable_column_el": [
+    "postgres.y"
+  ],
+  "xmltable_column_list": [
+    "postgres.y"
+  ],
+  "xmltable_column_option_el": [
+    "postgres.y"
+  ],
+  "xmltable_column_option_list": [
+    "postgres.y"
+  ],
+  "zero_fill_opt": [
+    "vitesse.y"
+  ],
+  "zone_value": [
+    "postgres.y"
+  ]
+}

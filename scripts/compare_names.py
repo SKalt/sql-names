@@ -44,7 +44,7 @@ def snake_case(s: str) -> str:
     for char in s[1:]:
         if char in ascii_uppercase:
             result += "_"
-        result += char.lower()
+        result += char.lower() if char != " " else "_"
     return result
         
 
@@ -71,10 +71,17 @@ def main() -> None:
         with open(file) as opened:
             names = sorted(set(match_antlr_rules(opened)))
         aggregate(names, grammar)
+    for grammar in bnf_grammars:
+        file = Path(artifacts_dir, grammar)
+        with open(file) as opened:
+            names = sorted(set(match_bnf_rules(opened)))
+        aggregate(names, grammar)
 
     for k,v in sorted(all_names.items(), key=lambda pair: len(pair[1]), reverse=True):
         if len(v) >= 2 and ('postgres.y' in v or 'sqlite.y' in v):
             print(f"{k}: {v}")
+    with open("./artifacts/output_names.json", "w") as output:
+        json.dump(all_names, output, sort_keys=True, indent="  ")
     # print(json.dumps(all_names, indent=2))
 
 main()
